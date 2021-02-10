@@ -1,4 +1,4 @@
-class Vehicle:
+class RealEstate:
     def __init__(self,
                  object_type,
                  offer_type,
