@@ -1,0 +1,27 @@
+CREATE DATABASE IF NOT EXISTS real_estate;
+
+USE real_estate;
+
+CREATE TABLE IF NOT EXISTS real_estate_tbl(
+   ID INT NOT NULL AUTO_INCREMENT,
+   OBJECT_TYPE VARCHAR(10),
+   OFFER_TYPE VARCHAR(10),
+   CITY VARCHAR(20),
+   MUNICIPALITY VARCHAR(30),
+   SQUARE_FOOTAGE DOUBLE,
+   YEAR_BUILT INT,
+   IS_NEW_CONSTRUCTION BOOLEAN,
+   LAND_AREA DOUBLE,
+   FLOOR INT,
+   IS_REGISTERED BOOLEAN,
+   ROOM_COUNT INT,
+   BATHROOM_COUNT INT,
+   PRICE DOUBLE,
+   DESCRIPTION VARCHAR(4000),
+   PRIMARY KEY ( ID )
+);
+
+# TODO if time allows
+# In order to speed up the queries it would be nice to have indexes on most of the columns
+#
+# CREATE INDEX IF NOT EXISTS ind_obj_type ON real_estate_tbl(OBJECT_TYPE)
