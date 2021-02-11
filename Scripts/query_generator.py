@@ -121,7 +121,7 @@ class QueryGenerator:
             values.append("'" + real_estate.description + "'")
             statement += "`DESCRIPTION`"
 
-        statement  += ") VALUES ("
+        statement += ") VALUES ("
         for value in values[:-1]:
             statement += value + ", "
 
