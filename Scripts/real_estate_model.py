@@ -6,7 +6,7 @@ class RealEstate:
                  municipality,
                  square_footage,
                  year_built,
-                 is_new_construction,
+                 construction_state,
                  land_area,
                  floor,
                  heating_system,
@@ -14,7 +14,7 @@ class RealEstate:
                  has_elevator,
                  has_garage,
                  has_parking,
-                 is_registered,
+                 registration_state,
                  room_count,
                  bathroom_count,
                  price,
@@ -25,7 +25,7 @@ class RealEstate:
         self.municipality = municipality
         self.square_footage = square_footage
         self.year_built = year_built
-        self.is_new_construction = is_new_construction
+        self.construction_state = construction_state
         self.land_area = land_area
         self.floor = floor
         self.heating_system = heating_system
@@ -33,7 +33,7 @@ class RealEstate:
         self.has_elevator = has_elevator
         self.has_garage = has_garage
         self.has_parking = has_parking
-        self.is_registered = is_registered
+        self.registration_state = registration_state
         self.room_count = room_count
         self.bathroom_count = bathroom_count
         self.price = price
@@ -46,7 +46,7 @@ class RealEstate:
         self.municipality = None
         self.square_footage = None
         self.year_built = None
-        self.is_new_construction = None
+        self.construction_state = None
         self.land_area = None
         self.floor = None
         self.heating_system = None
@@ -54,7 +54,7 @@ class RealEstate:
         self.has_elevator = None
         self.has_garage = None
         self.has_parking = None
-        self.is_registered = None
+        self.registration_state = None
         self.room_count = None
         self.bathroom_count = None
         self.price = None
@@ -96,11 +96,11 @@ class RealEstate:
     def get_year_built(self):
         return self.year_built
 
-    def set_is_new_construction(self, is_new_construction):
-        self.is_new_construction = is_new_construction
+    def set_construction_state(self, construction_state):
+        self.construction_state = construction_state
 
     def get_is_new_construction(self):
-        return self.is_new_construction
+        return self.construction_state
 
     def set_land_area (self, land_area):
         self.land_area = land_area
@@ -141,11 +141,11 @@ class RealEstate:
     def set_has_parking(self, has_parking):
         return self.has_parking
 
-    def set_is_registered(self, is_registered):
-        self.is_registered = is_registered
+    def set_registration_state(self, registration_state):
+        self.registration_state = registration_state
 
-    def get_is_registered(self):
-        return self.is_registered
+    def get_registration_state(self):
+        return self.registration_state
 
     def set_room_count(self, room_count):
         self.room_count = room_count

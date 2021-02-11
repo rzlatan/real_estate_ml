@@ -2,7 +2,9 @@ import scrapy
 import Constants
 from real_estate_model import RealEstate
 from query_generator import QueryGenerator
+from database_connection import db_cursor, db_connection
 from scrapy.cmdline import execute
+import re
 
 
 class RealEstateSpider(scrapy.Spider):
@@ -11,9 +13,9 @@ class RealEstateSpider(scrapy.Spider):
 
     start_urls = [
         "https://www.4zida.rs/izdavanje-stanova?strana=1",
-        #"https://www.4zida.rs/izdavanje-kuca",
-        #"https://www.4zida.rs/prodaja-stanova",
-        #"https://www.4zida.rs/prodaja-kuca?strana=1"
+        "https://www.4zida.rs/izdavanje-kuca?strana=1",
+        "https://www.4zida.rs/prodaja-stanova?strana=1",
+        "https://www.4zida.rs/prodaja-kuca?strana=1"
     ]
 
     @staticmethod
@@ -72,15 +74,15 @@ class RealEstateSpider(scrapy.Spider):
     def parse_location(real_estate: RealEstate, response: scrapy.http.Response):
         location_info = response.xpath('//h1[@class="location"]/text()').extract_first().split(',')
         location = None
-        city = location_info[-1]
+        city = location_info[-1].strip()
 
         if len(location_info) > 1 and location_info is not None:
             if location_info[1] == Constants.GENERAL_MUNICIPALITY:
-                location = location_info[0]
+                location = location_info[0].strip()
             else:
-                location = location_info[1]
+                location = location_info[1].strip()
         else:
-            location = location_info[0]
+            location = location_info[0].strip()
 
         real_estate.set_city(city)
         real_estate.set_municipality(location)
@@ -98,9 +100,77 @@ class RealEstateSpider(scrapy.Spider):
                     room_count = details[i + 1].strip()
                     real_estate.set_room_count(room_count)
 
-                if label == Constants.SQUARE_FOOTAGE
+                if label == Constants.SQUARE_FOOTAGE:
+                    try:
+                        square_footage = re.search(r'\d+', details[i + 1].strip()).group()
+                        real_estate.set_square_footage(square_footage)
+                    except:
+                        print("Square footage was not provided as a number")
 
+                if label == Constants.HEATING_SYSTEM:
+                    heating_system = details[i + 1].strip()
+                    real_estate.set_heating_system(heating_system)
 
+                if label == Constants.EQUIPMENT_STATE:
+                    equipment_state = details[i + 1].strip()
+                    real_estate.set_equipment_state(equipment_state)
+
+                if label == Constants.PARKING:
+                    if details[i + 1] is not None:
+                        real_estate.set_has_parking(True)
+                    else:
+                        real_estate.set_has_parking(False)
+
+                if label == Constants.GARAGE:
+                    if details[i + 1] is not None:
+                        real_estate.set_has_garage(True)
+                    else:
+                        real_estate.set_has_garage(False)
+
+                if label == Constants.ELEVATOR:
+                    if details[i + 1] is not None:
+                        if Constants.YES in details[i + 1].lower():
+                            real_estate.set_has_elevator(True)
+                        if Constants.NO in details[i + 1].lower():
+                            real_estate.set_has_elevator(False)
+
+                if label == Constants.BATHROOM_NUMBER:
+                    if details[i + 1] is not None:
+                        if Constants.BATHROOM_SUBST in details[i + 1]:
+                            try:
+                                bathroom_count = re.search(r'\d+', details[i + 1].strip()).group()
+                                real_estate.set_bathroom_count(bathroom_count)
+                            except:
+                                print("bathroom count was not provided, assuming 1 bathroom")
+                                real_estate.set_bathroom_count(1)
+                        else:
+                            real_estate.set_bathroom_count(1)
+
+                if label == Constants.FLOOR:
+                    if details[i + 1] is not None:
+                        try:
+                            floor = re.search(r'\d+', details[i + 1].strip()).group()
+                            real_estate.set_floor(floor)
+                        except:
+                            print("Floor information was not provided")
+
+                if label == Constants.YEAR_BUILD:
+                    if details[i + 1] is not None:
+                        try:
+                            year_built = re.search(r'\d+', details[i + 1].strip()).group()
+                            real_estate.set_year_built(year_built)
+                        except:
+                            print("built year was not provided")
+
+                if label == Constants.REGISTERED:
+                    if details[i + 1] is not None:
+                        registration_state = details[i + 1].strip()
+                        real_estate.set_registration_state(registration_state)
+
+                if label == Constants.CONSTRUCTION_STATE:
+                    if details[i + 1] is not None:
+                        construction_state = details[i + 1].strip()
+                        real_estate.set_construction_state(construction_state)
 
     @staticmethod
     def parse_description(real_estate: RealEstate, response: scrapy.http.Response):
@@ -115,8 +185,8 @@ class RealEstateSpider(scrapy.Spider):
         # Get basic information from the page
         #
         base_url = RealEstateSpider.get_base_url(response.url)
-        last_page = RealEstateSpider.get_last_page(response)
-        current_page = RealEstateSpider.get_current_page(response)
+        last_page = int(RealEstateSpider.get_last_page(response))
+        current_page = int(RealEstateSpider.get_current_page(response))
         home_url = "https://www.4zida.rs"
 
         # Handle apartments
@@ -155,8 +225,15 @@ class RealEstateSpider(scrapy.Spider):
         #
         RealEstateSpider.parse_location(real_estate, response)
 
+        # Parse description
+        #
+        RealEstateSpider.parse_description(real_estate, response)
+
         # Parse details
         #
         RealEstateSpider.parse_details(real_estate, response)
 
+        statement = QueryGenerator.insert_real_estate_query(real_estate)
+        db_cursor.execute(statement)
+        db_connection.commit()
 

@@ -43,11 +43,11 @@ class QueryGenerator:
             values.append(str(real_estate.year_built))
             statement += "`YEAR_BUILT`"
 
-        if real_estate.is_new_construction is not None:
+        if real_estate.construction_state is not None:
             if len(values):
                 statement += ", "
-            values.append(str(real_estate.is_new_construction))
-            statement += "'IS_NEW_CONSTRUCTION'"
+            values.append("'" + str(real_estate.construction_state) + "'")
+            statement += "`CONSTRUCTION_STATE`"
 
         if real_estate.land_area is not None:
             if len(values):
@@ -91,11 +91,11 @@ class QueryGenerator:
             values.append(str(real_estate.has_elevator))
             statement += "`HAS_ELEVATOR`"
 
-        if real_estate.is_registered is not None:
+        if real_estate.registration_state is not None:
             if len(values):
                 statement += ", "
-            values.append(str(real_estate.is_registered))
-            statement += "`IS_REGISTERED`"
+            values.append("'" + str(real_estate.registration_state) + "'")
+            statement += "`REGISTRATION_STATE`"
 
         if real_estate.room_count is not None:
             if len(values):
