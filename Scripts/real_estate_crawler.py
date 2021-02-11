@@ -83,6 +83,14 @@ class RealEstateSpider(scrapy.Spider):
         #information = response.xpath('//span/text()')
 
         infos = response.xpath('//div[@class="wrapper ng-star-inserted"]/div/text()').getall()
+
+        price_label = response.xpath('//div[@class="info-item ng-star-inserted"]/div[@class="label"]/text()').extract_first()
+        price_value = response.xpath('//div[@class="info-item ng-star-inserted"]/div[@class="value"]/span/text()').extract_first()
+
+        location_info = response.xpath('//h1[@class="location"]/text()').extract_first()
+
+        description_info = response.xpath('//div[@class="description"]/text()').extract_first()
+
         for info in infos:
             print(str(info))
 

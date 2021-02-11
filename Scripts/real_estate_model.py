@@ -9,6 +9,11 @@ class RealEstate:
                  is_new_construction,
                  land_area,
                  floor,
+                 heating_system,
+                 equipment_state,
+                 has_elevator,
+                 has_garage,
+                 has_parking,
                  is_registered,
                  room_count,
                  bathroom_count,
@@ -23,6 +28,11 @@ class RealEstate:
         self.is_new_construction = is_new_construction
         self.land_area = land_area
         self.floor = floor
+        self.heating_system = heating_system
+        self.equipment_state = equipment_state
+        self.has_elevator = has_elevator
+        self.has_garage = has_garage
+        self.has_parking = has_parking
         self.is_registered = is_registered
         self.room_count = room_count
         self.bathroom_count = bathroom_count
@@ -39,6 +49,11 @@ class RealEstate:
         self.is_new_construction = None
         self.land_area = None
         self.floor = None
+        self.heating_system = None
+        self.equipment_state = None
+        self.has_elevator = None
+        self.has_garage = None
+        self.has_parking = None
         self.is_registered = None
         self.room_count = None
         self.bathroom_count = None
@@ -98,6 +113,33 @@ class RealEstate:
 
     def get_floor(self):
         return self.floor
+
+    def set_heating_system(self, heating_system):
+        self.heating_system = heating_system
+
+    def get_heating_system(self):
+        return self.heating_system
+
+    def set_equipment_state(self, equipment_state):
+        self.equipment_state = equipment_state
+
+    def get_equipment_state(self):
+        return self.equipment_state
+
+    def set_has_elevator(self, has_elevator):
+        self.has_elevator = has_elevator
+
+    def get_has_elevator(self):
+        return self.has_elevator
+
+    def set_has_garage(self, has_garage):
+        self.has_garage = has_garage
+
+    def get_has_garage(self):
+        return self.has_garage
+
+    def set_has_parking(self, has_parking):
+        return self.has_parking
 
     def set_is_registered(self, is_registered):
         self.is_registered = is_registered

@@ -61,6 +61,36 @@ class QueryGenerator:
             values.append(str(real_estate.floor))
             statement += "`FLOOR`"
 
+        if real_estate.heating_system is not None:
+            if len(values):
+                statement += ", "
+            values.append("'" + str(real_estate.heating_system) + "'")
+            statement += "`HEATING_SYSTEM`"
+
+        if real_estate.equipment_state is not None:
+            if len(values):
+                statement += ", "
+            values.append("'" + str(real_estate.equipment_state) + "'")
+            statement += "`EQUIPMENT_STATE`"
+
+        if real_estate.has_parking is not None:
+            if len(values):
+                statement += ", "
+            values.append(str(real_estate.has_parking))
+            statement += "`HAS_PARKING`"
+
+        if real_estate.has_garage is not None:
+            if len(values):
+                statement += ", "
+            values.append(str(real_estate.has_garage))
+            statement += "`HAS_GARAGE`"
+
+        if real_estate.has_elevator is not None:
+            if len(values):
+                statement += ", "
+            values.append(str(real_estate.has_elevator))
+            statement += "`HAS_ELEVATOR`"
+
         if real_estate.is_registered is not None:
             if len(values):
                 statement += ", "
