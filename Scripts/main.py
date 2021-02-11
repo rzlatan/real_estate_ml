@@ -1,13 +1,10 @@
 from query_generator import QueryGenerator
 from real_estate_model import RealEstate
+from database_connection import db_connection, db_cursor
+from scrapy.crawler import CrawlerProcess
+from scrapy.utils.project import get_project_settings
+from real_estate_crawler import RealEstateSpider
 
-real_estate = RealEstate()
-
-real_estate.set_city("Belgrade")
-real_estate.set_offer_type("Prodaja")
-real_estate.set_is_registered(True)
-real_estate.set_price(100.10)
-
-query = QueryGenerator.insert_real_estate_query(real_estate)
-
-print(query)
+process = CrawlerProcess(get_project_settings())
+process.crawl(RealEstateSpider)
+process.start()

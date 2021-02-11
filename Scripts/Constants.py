@@ -1,0 +1,6 @@
+RENTING = 'izdavanje'
+SELLING = 'prodaja'
+FLATS = 'stanovi'
+HOUSES = 'kuce'
+FLAT = 'stan'
+HOUSE = 'kuca'
