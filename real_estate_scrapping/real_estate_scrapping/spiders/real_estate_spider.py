@@ -1,9 +1,8 @@
 import scrapy
 from scrapy import Request
-import Constants
-from real_estate_model import RealEstate
 from query_generator import QueryGenerator
-from database_connection import db_cursor, db_connection
+from real_estate_model import RealEstate
+import Constants
 import re
 
 
@@ -13,8 +12,8 @@ class RealEstateSpider(scrapy.Spider):
 
     start_urls = [
         "https://www.4zida.rs/izdavanje-stanova?strana=1",
-        "https://www.4zida.rs/izdavanje-kuca?strana=1",
-        "https://www.4zida.rs/prodaja-stanova?strana=1",
+        #"https://www.4zida.rs/izdavanje-kuca?strana=1",
+        #"https://www.4zida.rs/prodaja-stanova?strana=1",
         "https://www.4zida.rs/prodaja-kuca?strana=1"
     ]
 
@@ -189,7 +188,7 @@ class RealEstateSpider(scrapy.Spider):
         # Get basic information from the page
         #
         base_url = RealEstateSpider.get_base_url(response.url)
-        last_page = int(RealEstateSpider.get_last_page(response))
+        last_page = 1 #int(RealEstateSpider.get_last_page(response))
         current_page = int(RealEstateSpider.get_current_page(response))
         home_url = "https://www.4zida.rs"
 
@@ -238,6 +237,7 @@ class RealEstateSpider(scrapy.Spider):
         RealEstateSpider.parse_details(real_estate, response)
 
         statement = QueryGenerator.insert_real_estate_query(real_estate)
-        db_cursor.execute(statement)
-        db_connection.commit()
+        print(statement)
+        #db_cursor.execute(statement)
+        #db_connection.commit()
 

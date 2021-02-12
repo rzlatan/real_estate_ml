@@ -1,5 +1,6 @@
 from real_estate_model import RealEstate
 
+
 class QueryGenerator:
 
     @staticmethod
@@ -10,7 +11,7 @@ class QueryGenerator:
         if real_estate.object_type is not None:
             if len(values):
                 statement += ", "
-            values.append("'" + real_estate.object_type +"'")
+            values.append("'" + real_estate.object_type + "'")
             statement += "`OBJECT_TYPE`"
 
         if real_estate.offer_type is not None:
@@ -128,4 +129,3 @@ class QueryGenerator:
         statement += values[-1] + ")"
 
         return statement
-
