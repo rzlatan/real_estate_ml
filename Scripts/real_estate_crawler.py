@@ -1,9 +1,9 @@
 import scrapy
+from scrapy import Request
 import Constants
 from real_estate_model import RealEstate
 from query_generator import QueryGenerator
 from database_connection import db_cursor, db_connection
-from scrapy.cmdline import execute
 import re
 
 
@@ -17,6 +17,10 @@ class RealEstateSpider(scrapy.Spider):
         "https://www.4zida.rs/prodaja-stanova?strana=1",
         "https://www.4zida.rs/prodaja-kuca?strana=1"
     ]
+
+    def start_requests(self):
+        for url in self.start_urls:
+            yield Request(url=url, callback=self.parse)
 
     @staticmethod
     def get_last_page(res):
