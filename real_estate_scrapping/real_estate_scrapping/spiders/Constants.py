@@ -20,3 +20,4 @@ CONSTRUCTION_STATE = 'Stanje:'
 YES = "da"
 NO = "ne"
 BATHROOM_SUBST = "kupatil"
+GARDEN_SQUARE_FOOTAGE = "Veličina placa oko kuće:"

@@ -2,8 +2,10 @@ import scrapy
 from scrapy import Request
 from query_generator import QueryGenerator
 from real_estate_model import RealEstate
+from database_connection import db_connection, db_cursor
 import Constants
 import re
+import threading
 
 
 class RealEstateSpider(scrapy.Spider):
@@ -12,10 +14,13 @@ class RealEstateSpider(scrapy.Spider):
 
     start_urls = [
         "https://www.4zida.rs/izdavanje-stanova?strana=1",
-        #"https://www.4zida.rs/izdavanje-kuca?strana=1",
-        #"https://www.4zida.rs/prodaja-stanova?strana=1",
+        "https://www.4zida.rs/izdavanje-kuca?strana=1",
+        "https://www.4zida.rs/prodaja-stanova?strana=1",
         "https://www.4zida.rs/prodaja-kuca?strana=1"
     ]
+
+    lock = threading.Lock()
+    counter = 0
 
     def start_requests(self):
         for url in self.start_urls:
@@ -175,6 +180,15 @@ class RealEstateSpider(scrapy.Spider):
                         construction_state = details[i + 1].strip()
                         real_estate.set_construction_state(construction_state)
 
+                if label == Constants.GARDEN_SQUARE_FOOTAGE:
+                    if details[i + 1] is not None:
+                        try:
+                            garden_size = re.search(r'\d+', details[i + 1].strip()).group()
+                            real_estate.set_land_area(garden_size)
+                        except:
+                            print("garden size was not specified")
+
+
     @staticmethod
     def parse_description(real_estate: RealEstate, response: scrapy.http.Response):
         description = response.xpath('//div[@class="description"]/text()').extract_first()
@@ -188,16 +202,21 @@ class RealEstateSpider(scrapy.Spider):
         # Get basic information from the page
         #
         base_url = RealEstateSpider.get_base_url(response.url)
-        last_page = 1 #int(RealEstateSpider.get_last_page(response))
+        last_page = int(RealEstateSpider.get_last_page(response))
+        print(response.url)
+        print(RealEstateSpider.get_current_page(response))
         current_page = int(RealEstateSpider.get_current_page(response))
         home_url = "https://www.4zida.rs"
 
         # Handle apartments
         #
+        print("Getting apartments")
         apartments = RealEstateSpider.get_apartments(response)
+        print("Found " + str(len(apartments)) + "apartments")
+
         for apartment in apartments:
             apartment_url = home_url + apartment
-            yield scrapy.Request(apartment_url, callback=self.parse_apartment)
+            yield scrapy.Request(apartment_url, callback=self.parse_apartment, dont_filter=False)
 
         # Visit next page
         #
@@ -207,21 +226,23 @@ class RealEstateSpider(scrapy.Spider):
             yield scrapy.Request(next_page_url, callback=self.parse)
 
     def parse_apartment(self, response):
-
         # Creating the real estate object
         #
         real_estate = RealEstate()
 
         # Parse offer type
         #
+        print("Parsing offer type")
         RealEstateSpider.parse_offer_type(real_estate, response)
 
         # Parse object type
         #
+        print("Parsing object type")
         RealEstateSpider.parse_object_type(real_estate, response)
 
         # Parse price
         #
+        print("Parsing price")
         RealEstateSpider.parse_price(real_estate, response)
 
         # Parse location
@@ -230,6 +251,7 @@ class RealEstateSpider(scrapy.Spider):
 
         # Parse description
         #
+        print("Parsing desc")
         RealEstateSpider.parse_description(real_estate, response)
 
         # Parse details
@@ -237,7 +259,10 @@ class RealEstateSpider(scrapy.Spider):
         RealEstateSpider.parse_details(real_estate, response)
 
         statement = QueryGenerator.insert_real_estate_query(real_estate)
-        print(statement)
-        #db_cursor.execute(statement)
-        #db_connection.commit()
+        RealEstateSpider.lock.acquire()
+        RealEstateSpider.counter = RealEstateSpider.counter + 1
+        print("Processed " + str(RealEstateSpider.counter) + " flats")
+        RealEstateSpider.lock.release()
 
+        db_cursor.execute(statement)
+        db_connection.commit()
