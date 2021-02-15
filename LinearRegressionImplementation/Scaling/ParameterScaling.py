@@ -40,7 +40,7 @@ class ParameterScaling:
     @staticmethod
     def get_location_cost(location):
         if location is None or location == 'NULL' or location == '':
-            return 0.5
+            return 0.0
         return 1 - ParameterScaling.location_cost[location]
 
     min_year = 1923.0
@@ -49,18 +49,18 @@ class ParameterScaling:
     @staticmethod
     def get_year_built_cost(year_built):
         if year_built is None or year_built == 'NULL' or year_built == '':
-            return 0.5
+            return 0.0
         val = float(year_built)
 
         return (ParameterScaling.max_year - val) / (ParameterScaling.max_year - ParameterScaling.min_year)
 
-    min_square_footage = 16;
-    max_square_footage = 150;
+    min_square_footage = 16
+    max_square_footage = 150
 
     @staticmethod
     def get_square_footage_cost(square_footage):
         if square_footage is None or square_footage == 'NULL' or square_footage == '':
-            return 0.5
+            return 0
         val = float(square_footage)
 
         if val > 150:
@@ -73,7 +73,7 @@ class ParameterScaling:
     @staticmethod
     def get_room_count_cost(room_count):
         if room_count is None or room_count == 'NULL' or room_count == '':
-            return 0.5
+            return 0.0
         val = float(room_count)
 
         if val > 5:
@@ -86,7 +86,7 @@ class ParameterScaling:
     @staticmethod
     def get_floor_cost(floor):
         if floor is None or floor == 'NULL' or floor == '':
-            return 0.5
+            return 0.0
         val = float(floor)
 
         if val > 15:

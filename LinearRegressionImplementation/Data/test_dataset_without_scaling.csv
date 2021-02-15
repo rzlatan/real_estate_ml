@@ -1,419 +1,409 @@
-114229,stan,prodaja,Beograd,Savski Venac,43,1970,NULL,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-114207,stan,prodaja,Beograd,Vračar,62,NULL,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,1
-114206,stan,prodaja,Beograd,Vračar,64,NULL,NULL,NULL,4,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,1
-114205,stan,prodaja,Beograd,Zemun,58,NULL,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,2.5,1
-114159,stan,prodaja,Beograd,Novi Beograd,67,NULL,NULL,NULL,5,NULL,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-114155,stan,prodaja,Beograd,Zemun,94,NULL,renovirano,NULL,3,NULL,NULL,NULL,NULL,NULL,uknjiženo,3,2
-114151,stan,prodaja,Beograd,Zvezdara opština,74,NULL,u izgradnji,NULL,1,centralno,prazno,1,NULL,NULL,u procesu uknjižavanja,4,2
-114107,stan,prodaja,Beograd,Voždovac opština,63,2021,NULL,NULL,2,centralno,NULL,1,1,NULL,u procesu uknjižavanja,3,1
-114025,stan,prodaja,Beograd,Stari Grad opština,41,NULL,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,1
-114024,stan,prodaja,Beograd,Vračar,42,2005,novo,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,1
-114022,stan,prodaja,Beograd,Voždovac opština,79,2017,novo,NULL,4,centralno,NULL,1,1,NULL,uknjiženo,3,NULL
-114019,stan,prodaja,Beograd,Bežanijski Blokovi,72,NULL,novo,NULL,1,centralno,polunamešteno,1,1,NULL,uknjiženo,2.5,NULL
-114012,stan,prodaja,Beograd,Voždovac opština,60,NULL,NULL,NULL,3,etažno,prazno,1,NULL,NULL,uknjiženo,2.5,NULL
-113852,stan,prodaja,Beograd,Čukarica opština,75,NULL,renovirano,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-113835,stan,prodaja,Beograd,Beograd,76,1963,NULL,NULL,8,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-113781,stan,prodaja,Beograd,Novi Beograd,73,NULL,NULL,NULL,4,centralno,namešteno,1,NULL,NULL,uknjiženo,2,NULL
-113763,stan,prodaja,Beograd,Voždovac opština,49,2010,NULL,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL
-113760,stan,prodaja,Beograd,Palilula opština,56,1982,uobičajeno,NULL,8,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-113652,stan,prodaja,Beograd,Vračar,40,NULL,uobičajeno,NULL,6,centralno,namešteno,NULL,NULL,NULL,NULL,1,1
-113321,stan,prodaja,Beograd,Palilula opština,58,1982,uobičajeno,NULL,8,centralno,namešteno,1,NULL,NULL,uknjiženo,2,1
-113141,stan,prodaja,Beograd,Zemun,60,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,2,1
-113140,stan,prodaja,Beograd,Zemun,50,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,2,1
-113138,stan,prodaja,Beograd,Zemun,71,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-113071,stan,prodaja,Beograd,Stari Grad opština,44,NULL,NULL,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-113034,stan,prodaja,Beograd,Savski Venac,93,2020,novo,NULL,1,etažno,prazno,1,NULL,NULL,uknjiženo,2,1
-113032,stan,prodaja,Beograd,Novi Beograd,59,NULL,NULL,NULL,2,NULL,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-113031,stan,prodaja,Beograd,Novi Beograd,80,NULL,renovirano,NULL,10,NULL,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-112939,stan,prodaja,Beograd,Čukarica,65,2010,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112924,stan,prodaja,Beograd,Bežanijska kosa,97,NULL,NULL,NULL,5,centralno,prazno,NULL,NULL,NULL,uknjiženo,3.5,NULL
-112918,stan,prodaja,Beograd,Čukarica,55,2016,novo,NULL,6,na gas,namešteno,1,1,NULL,uknjiženo,2,NULL
-112884,stan,prodaja,Beograd,Bežanijska kosa,65,2000,potrebno renoviranje,NULL,NULL,NULL,NULL,NULL,NULL,NULL,u procesu uknjižavanja,2,1
-112754,stan,prodaja,Beograd,Voždovac opština,72,2021,u izgradnji,NULL,2,na gas,namešteno,1,1,NULL,nije uknjiženo,3,NULL
-112676,stan,prodaja,Beograd,Voždovac opština,75,1978,uobičajeno,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,2.5,1
-112674,stan,prodaja,Beograd,Neimar,33,2011,uobičajeno,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112672,stan,prodaja,Beograd,Čukarica,97,1990,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,3.5,2
-112668,stan,prodaja,Beograd,Novi Beograd,70,1975,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3.5,2
-112655,stan,prodaja,Beograd,Palilula,58,NULL,NULL,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,NULL
-112650,stan,prodaja,Beograd,Voždovac opština,47,2020,novo,NULL,3,etažno,prazno,1,1,NULL,uknjiženo,2,NULL
-112649,stan,prodaja,Beograd,Čukarica,73,1964,NULL,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL
-112641,stan,prodaja,Beograd,Novi Beograd,74,NULL,uobičajeno,NULL,3,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112630,stan,prodaja,Beograd,Voždovac opština,74,2014,NULL,NULL,2,centralno,NULL,NULL,1,NULL,uknjiženo,3.5,1
-112629,stan,prodaja,Beograd,Palilula opština,69,1968,renovirano,NULL,4,centralno,polunamešteno,1,NULL,NULL,uknjiženo,2.5,NULL
-112620,stan,prodaja,Beograd,Savski Venac,57,2017,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL
-112619,stan,prodaja,Beograd,Vračar,62,NULL,NULL,NULL,4,na struju,prazno,1,NULL,NULL,uknjiženo,2,NULL
-112618,stan,prodaja,Beograd,Stari Grad opština,43,NULL,NULL,NULL,13,centralno,prazno,1,NULL,NULL,nije uknjiženo,1.5,NULL
-112497,stan,prodaja,Beograd,Blok 11,50,NULL,novo,NULL,2,centralno,prazno,1,1,NULL,uknjiženo,3,NULL
-112496,stan,prodaja,Beograd,Stari Grad opština,60,NULL,NULL,NULL,5,TA peć,NULL,NULL,NULL,NULL,uknjiženo,2,1
-112422,stan,prodaja,Beograd,Voždovac opština,66,2019,novo,NULL,3,NULL,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112420,stan,prodaja,Beograd,Čukarica,105,NULL,novo,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,4,2
-112418,stan,prodaja,Beograd,Čukarica,75,NULL,novo,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,2
-112354,stan,prodaja,Beograd,Čukarica,103,NULL,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,4,1
-112351,stan,prodaja,Beograd,Dorćol,49,1993,uobičajeno,NULL,1,NULL,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-112346,stan,prodaja,Beograd,Voždovac opština,48,NULL,uobičajeno,NULL,4,NULL,prazno,NULL,NULL,NULL,uknjiženo,1.5,1
-112345,stan,prodaja,Beograd,Savamala,69,1970,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,2
-112330,stan,prodaja,Beograd,Vračar,60,NULL,renovirano,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,1
-112323,stan,prodaja,Beograd,Vračar,60,NULL,renovirano,NULL,4,norveški radijatori,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112308,stan,prodaja,Beograd,Palilula,62,NULL,NULL,NULL,2,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,3,2
-112306,stan,prodaja,Beograd,Vračar,37,NULL,NULL,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-112304,stan,prodaja,Beograd,Voždovac opština,67,NULL,NULL,NULL,2,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,1
-112302,stan,prodaja,Beograd,Vračar,64,2020,NULL,NULL,3,centralno,NULL,1,1,NULL,uknjiženo,3,1
-112301,stan,prodaja,Beograd,Vračar,96,NULL,NULL,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,4.5,1
-112297,stan,prodaja,Beograd,Stari Grad opština,69,NULL,potrebno renoviranje,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112280,stan,prodaja,Beograd,Zemun,58,2020,NULL,NULL,2,etažno,NULL,1,1,NULL,uknjiženo,2.5,1
-112218,stan,prodaja,Beograd,Zemun,60,NULL,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,uknjiženo,2.5,1
-112210,stan,prodaja,Beograd,Zemun,59,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-112206,stan,prodaja,Beograd,Voždovac opština,73,NULL,uobičajeno,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112204,stan,prodaja,Beograd,Zvezdara opština,59,NULL,novo,NULL,3,centralno,NULL,1,1,NULL,uknjiženo,2.5,NULL
-112196,stan,prodaja,Beograd,Beograd,55,NULL,renovirano,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL
-112191,stan,prodaja,Beograd,Palilula opština,60,NULL,novo,NULL,5,etažno,NULL,1,NULL,NULL,u procesu uknjižavanja,2,NULL
-112184,stan,prodaja,Beograd,Stari Grad opština,48,NULL,renovirano,NULL,1,na struju,NULL,1,NULL,NULL,uknjiženo,1.5,NULL
-112179,stan,prodaja,Beograd,Zemun opština,59,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-112164,stan,prodaja,Beograd,Bežanijski Blokovi,66,NULL,uobičajeno,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112159,stan,prodaja,Beograd,Stari Grad opština,55,NULL,renovirano,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-112157,stan,prodaja,Beograd,Stari Grad opština,62,1927,NULL,NULL,3,na struju,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112155,stan,prodaja,Beograd,Novi Beograd,78,NULL,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112151,stan,prodaja,Beograd,Palilula,62,NULL,uobičajeno,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-112150,stan,prodaja,Beograd,Voždovac opština,66,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,2.5,NULL
-112142,stan,prodaja,Beograd,Zvezdara opština,82,2012,uobičajeno,NULL,8,podno,NULL,1,NULL,NULL,uknjiženo,4,1
-112140,stan,prodaja,Beograd,Zemun,61,2020,novo,NULL,2,podno,NULL,NULL,NULL,NULL,NULL,3,NULL
-112137,stan,prodaja,Beograd,Zemun,71,2020,novo,NULL,1,podno,NULL,NULL,NULL,NULL,NULL,4,NULL
-112133,stan,prodaja,Beograd,Čukarica,80,1989,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-112131,stan,prodaja,Beograd,Bežanijska kosa,64,NULL,renovirano,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112126,stan,prodaja,Beograd,Čukarica,85,NULL,renovirano,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-112114,stan,prodaja,Beograd,Novi Beograd,68,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112112,stan,prodaja,Beograd,Zemun,113,NULL,novo,NULL,3,etažno,prazno,NULL,1,NULL,uknjiženo,4,1
-112084,stan,prodaja,Beograd,Čukarica,58,1997,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL
-112080,stan,prodaja,Beograd,Voždovac,59,NULL,novo,NULL,1,centralno,prazno,1,1,NULL,uknjiženo,2,1
-112063,stan,prodaja,Beograd,Vračar,50,1938,NULL,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL
-112060,stan,prodaja,Beograd,Stari Grad opština,45,NULL,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,4,1
-112053,stan,prodaja,Beograd,Vračar,69,1980,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112029,stan,prodaja,Beograd,Zemun,58,NULL,novo,NULL,1,podno,prazno,1,1,NULL,uknjiženo,2.5,NULL
-112026,stan,prodaja,Beograd,Stari Grad opština,48,NULL,renovirano,NULL,1,TA peć,prazno,1,NULL,NULL,uknjiženo,1.5,NULL
-111928,stan,prodaja,Beograd,Čukarica,68,1990,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,1
-111912,stan,prodaja,Beograd,Vračar,64,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,NULL,3,NULL
-111904,stan,prodaja,Beograd,Novi Beograd,64,NULL,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1
-111863,stan,prodaja,Beograd,Čukarica,93,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-111858,stan,prodaja,Beograd,Novi Beograd,75,NULL,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-111857,stan,prodaja,Beograd,Voždovac opština,74,2016,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-111841,stan,prodaja,Beograd,Savski Venac,57,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,1
-111789,stan,prodaja,Beograd,Zvezdara opština,70,2008,NULL,NULL,4,etažno,NULL,1,1,NULL,uknjiženo,3,NULL
-111773,stan,prodaja,Beograd,Čukarica,97,NULL,uobičajeno,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL
-111760,stan,prodaja,Beograd,Vračar,53,1980,uobičajeno,NULL,8,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-111757,stan,prodaja,Beograd,Neimar,42,2009,NULL,NULL,4,centralno,prazno,1,NULL,NULL,NULL,1.5,NULL
-111725,stan,prodaja,Beograd,Vračar,96,2005,uobičajeno,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,4.5,2
-111705,stan,prodaja,Beograd,Stari Grad opština,52,2020,novo,NULL,2,centralno,NULL,1,1,NULL,NULL,3,NULL
-111703,stan,prodaja,Beograd,Bežanijski Blokovi,72,1977,renovirano,NULL,1,centralno,NULL,1,1,NULL,uknjiženo,2.5,NULL
-111698,stan,prodaja,Beograd,Palilula,50,NULL,renovirano,NULL,4,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-111683,stan,prodaja,Beograd,Zvezdara opština,80,NULL,renovirano,NULL,4,na struju,NULL,1,NULL,NULL,uknjiženo,4,NULL
-114239,stan,prodaja,Beograd,Novi Beograd,86,NULL,uobičajeno,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-114102,stan,prodaja,Beograd,Stari Grad opština,70,NULL,uobičajeno,NULL,1,etažno,namešteno,NULL,NULL,NULL,uknjiženo,2.5,NULL
-114033,stan,prodaja,Beograd,Palilula opština,80,2006,uobičajeno,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,3,1
-114027,stan,prodaja,Beograd,Voždovac opština,120,NULL,NULL,NULL,4,na gas,namešteno,1,1,NULL,uknjiženo,4,3
-113635,stan,prodaja,Beograd,Novi Beograd,90,NULL,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,2
-113139,stan,prodaja,Beograd,Zemun,63,2020,NULL,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-113123,stan,prodaja,Beograd,Zemun,70,2020,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-113089,stan,prodaja,Beograd,Zemun,70,2020,NULL,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-113033,stan,prodaja,Beograd,Zemun,82,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-112924,stan,prodaja,Beograd,Bežanijska kosa,97,NULL,NULL,NULL,5,centralno,prazno,NULL,NULL,NULL,uknjiženo,3.5,NULL
-112922,stan,prodaja,Beograd,Savski Venac,53,NULL,novo,NULL,8,NULL,NULL,NULL,1,NULL,uknjiženo,1,NULL
-112919,stan,prodaja,Beograd,Novi Beograd,94,NULL,uobičajeno,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112916,stan,prodaja,Beograd,Stari Grad opština,77,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,3.5,NULL
-112716,stan,prodaja,Beograd,Novi Beograd,78,NULL,NULL,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,1
-112663,stan,prodaja,Beograd,Zemun,103,1932,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112638,stan,prodaja,Beograd,Novi Beograd,70,NULL,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,3,2
-112555,stan,prodaja,Beograd,Novi Beograd,72,1980,renovirano,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-112500,stan,prodaja,Beograd,Savski Venac,55,NULL,novo,NULL,16,centralno,polunamešteno,1,1,NULL,uknjiženo,2,NULL
-112423,stan,prodaja,Beograd,Kosančićev Venac,58,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112421,stan,prodaja,Beograd,Neimar,85,2006,novo,NULL,2,centralno,prazno,1,1,NULL,uknjiženo,4,3
-112409,stan,prodaja,Beograd,Savski Venac,55,2019,novo,NULL,12,centralno,namešteno,1,1,NULL,uknjiženo,2,NULL
-112355,stan,prodaja,Beograd,Beograd centar,115,NULL,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,4,1
-112349,stan,prodaja,Beograd,Palilula opština,94,NULL,NULL,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,4,2
-112336,stan,prodaja,Beograd,Savski Venac,51,2020,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112335,stan,prodaja,Beograd,Zvezdara opština,105,NULL,novo,NULL,4,etažno,NULL,1,1,NULL,uknjiženo,3,2
-112333,stan,prodaja,Beograd,Savski Venac,56,2020,NULL,NULL,21,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112332,stan,prodaja,Beograd,Savski Venac,52,2020,NULL,NULL,9,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL
-112331,stan,prodaja,Beograd,Savski Venac,55,2020,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112329,stan,prodaja,Beograd,Savski Venac,55,2020,NULL,NULL,23,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112326,stan,prodaja,Beograd,Savski Venac,54,2020,NULL,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112325,stan,prodaja,Beograd,Savski Venac,55,2020,NULL,NULL,10,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112315,stan,prodaja,Beograd,Zemun,100,2020,NULL,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,3.5,1
-112305,stan,prodaja,Beograd,Voždovac opština,90,2013,NULL,NULL,4,centralno,NULL,1,1,NULL,uknjiženo,3,1
-112279,stan,prodaja,Beograd,Zemun,85,2020,NULL,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,3,1
-112249,stan,prodaja,Beograd,Novi Beograd,60,NULL,novo,NULL,3,centralno,prazno,1,1,NULL,uknjiženo,2,NULL
-112202,stan,prodaja,Beograd,Zvezdara opština,100,NULL,novo,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-112197,stan,prodaja,Beograd,Beograd,96,1941,renovirano,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-112192,stan,prodaja,Beograd,Zvezdara opština,104,NULL,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-112176,stan,prodaja,Beograd,Palilula opština,84,NULL,NULL,NULL,5,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-112160,stan,prodaja,Beograd,Stari Grad opština,54,NULL,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112152,stan,prodaja,Beograd,Zvezdara opština,97,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,3,NULL
-112136,stan,prodaja,Beograd,Beograd,85,NULL,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-112130,stan,prodaja,Beograd,Palilula opština,92,NULL,renovirano,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL
-112128,stan,prodaja,Beograd,Voždovac opština,120,NULL,novo,NULL,4,etažno,NULL,1,NULL,NULL,uknjiženo,5,NULL
-112126,stan,prodaja,Beograd,Čukarica,85,NULL,renovirano,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-112112,stan,prodaja,Beograd,Zemun,113,NULL,novo,NULL,3,etažno,prazno,NULL,1,NULL,uknjiženo,4,1
-112082,stan,prodaja,Beograd,Vračar,78,NULL,NULL,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,2.5,NULL
-112080,stan,prodaja,Beograd,Voždovac,59,NULL,novo,NULL,1,centralno,prazno,1,1,NULL,uknjiženo,2,1
-112070,stan,prodaja,Beograd,Beograd,78,NULL,NULL,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL
-112028,stan,prodaja,Beograd,Zemun,100,NULL,novo,NULL,5,podno,prazno,1,1,NULL,uknjiženo,3.5,NULL
-112025,stan,prodaja,Beograd,Zemun,85,NULL,novo,NULL,5,podno,prazno,1,1,NULL,uknjiženo,3.5,NULL
-112014,stan,prodaja,Beograd,Novi Beograd,105,NULL,renovirano,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL
-112010,stan,prodaja,Beograd,Novi Beograd,70,NULL,novo,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL
-111905,stan,prodaja,Beograd,Palilula,51,2018,novo,NULL,4,centralno,prazno,1,1,NULL,uknjiženo,2,NULL
-111861,stan,prodaja,Beograd,Zvezdara opština,80,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-111856,stan,prodaja,Beograd,Beograd,55,2019,novo,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-111836,stan,prodaja,Beograd,Zvezdara opština,135,2007,renovirano,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,3,1
-111793,stan,prodaja,Beograd,Novi Beograd,76,NULL,renovirano,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-111786,stan,prodaja,Beograd,Palilula opština,99,2019,novo,NULL,5,centralno,namešteno,1,1,NULL,NULL,3,NULL
-111753,stan,prodaja,Beograd,Novi Beograd,81,2006,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-111752,stan,prodaja,Beograd,Vračar,63,NULL,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-111745,stan,prodaja,Beograd,Stari Grad opština,85,2007,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-111731,stan,prodaja,Beograd,Savski Venac,54,NULL,novo,NULL,4,centralno,prazno,1,1,NULL,uknjiženo,2,NULL
-111724,stan,prodaja,Beograd,Zvezdara opština,77,2020,novo,NULL,1,centralno,prazno,1,NULL,NULL,NULL,3,2
-111706,stan,prodaja,Beograd,Palilula,66,NULL,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,NULL
-111678,stan,prodaja,Beograd,Zvezdara opština,82,NULL,NULL,NULL,4,NULL,namešteno,NULL,NULL,NULL,NULL,3,1
-114162,stan,prodaja,Beograd,Novi Beograd,94,NULL,u izgradnji,NULL,14,centralno,prazno,1,NULL,NULL,NULL,3,1
-114157,stan,prodaja,Beograd,Beograd,124,NULL,novo,NULL,3,etažno,NULL,NULL,1,NULL,uknjiženo,4,NULL
-114149,stan,prodaja,Beograd,Neimar,104,1934,renovirano,NULL,4,na struju,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-114138,stan,prodaja,Beograd,Beograd centar,94,NULL,uobičajeno,NULL,1,etažno,prazno,1,NULL,NULL,uknjiženo,4,1
-114113,stan,prodaja,Beograd,Vračar,99,1970,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1
-114035,stan,prodaja,Beograd,Novi Beograd,120,NULL,uobičajeno,NULL,10,centralno,prazno,NULL,NULL,NULL,NULL,3,1
-113765,stan,prodaja,Beograd,Savski Venac,126,2006,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,uknjiženo,4,NULL
-113761,stan,prodaja,Beograd,Vračar,99,NULL,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL
-113650,stan,prodaja,Beograd,Savski Venac,103,2016,uobičajeno,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,3,2
-113616,stan,prodaja,Beograd,Beograd,128,2019,novo,NULL,2,na gas,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-113122,stan,prodaja,Beograd,Zemun,135,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-113098,stan,prodaja,Beograd,Zemun,95,2020,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,4,NULL
-113088,stan,prodaja,Beograd,Zemun,144,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,5,NULL
-112871,stan,prodaja,Beograd,Savski Venac,207,2019,novo,NULL,2,na gas,polunamešteno,NULL,1,NULL,uknjiženo,5,3
-112750,stan,prodaja,Beograd,Vračar,87,2006,novo,NULL,4,centralno,namešteno,1,NULL,NULL,uknjiženo,3,NULL
-112648,stan,prodaja,Beograd,Savski Venac,135,NULL,NULL,NULL,13,NULL,NULL,NULL,1,NULL,uknjiženo,3,NULL
-112646,stan,prodaja,Beograd,Savski Venac,77,NULL,NULL,NULL,16,NULL,NULL,NULL,1,NULL,uknjiženo,2,NULL
-112644,stan,prodaja,Beograd,Savski Venac,110,NULL,novo,NULL,15,NULL,NULL,NULL,1,NULL,NULL,2,NULL
-112623,stan,prodaja,Beograd,Stari Grad opština,137,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,5,5
-112597,stan,prodaja,Beograd,Beograd,94,NULL,NULL,NULL,2,centralno,NULL,NULL,NULL,NULL,uknjiženo,4,NULL
-112519,stan,prodaja,Beograd,Voždovac opština,112,2019,novo,NULL,1,NULL,NULL,1,1,NULL,uknjiženo,4,NULL
-112499,stan,prodaja,Beograd,Blok 11,86,NULL,novo,NULL,2,centralno,prazno,1,1,NULL,uknjiženo,3,NULL
-112424,stan,prodaja,Beograd,Vračar,86,NULL,uobičajeno,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112357,stan,prodaja,Beograd,Čukarica,113,2020,novo,NULL,3,etažno,NULL,1,1,NULL,uknjiženo,3.5,1
-112352,stan,prodaja,Beograd,Voždovac opština,115,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,5,2
-112328,stan,prodaja,Beograd,Savski Venac,88,2020,NULL,NULL,10,centralno,NULL,1,NULL,NULL,uknjiženo,3,1
-112327,stan,prodaja,Beograd,Savski Venac,139,2020,NULL,NULL,15,centralno,NULL,1,NULL,NULL,uknjiženo,4,3
-112324,stan,prodaja,Beograd,Savski Venac,163,2021,NULL,NULL,30,centralno,NULL,1,NULL,NULL,uknjiženo,4,2
-112313,stan,prodaja,Beograd,Zemun,114,2020,NULL,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,4,1
-112312,stan,prodaja,Beograd,Dorćol,134,NULL,NULL,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,4,1
-112311,stan,prodaja,Beograd,Neimar,81,NULL,novo,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,2
-112309,stan,prodaja,Beograd,Beograd centar,96,NULL,NULL,NULL,3,TA peć,NULL,NULL,NULL,NULL,uknjiženo,3,1
-112303,stan,prodaja,Beograd,Čukarica,102,NULL,NULL,NULL,2,centralno,NULL,1,1,NULL,uknjiženo,4,2
-112209,stan,prodaja,Beograd,Vračar,118,NULL,novo,NULL,4,NULL,NULL,1,1,NULL,NULL,4,NULL
-112203,stan,prodaja,Beograd,Beograd,87,NULL,renovirano,NULL,4,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-112188,stan,prodaja,Beograd,Savski Venac,200,NULL,novo,NULL,2,etažno,NULL,NULL,1,NULL,uknjiženo,6,NULL
-112186,stan,prodaja,Beograd,Neimar,138,NULL,NULL,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,5,NULL
-112175,stan,prodaja,Beograd,Dorćol,99,1936,NULL,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,5,NULL
-112173,stan,prodaja,Beograd,Voždovac opština,228,NULL,novo,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,7,NULL
-112163,stan,prodaja,Beograd,Stari Grad opština,120,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,NULL
-112162,stan,prodaja,Beograd,Vračar,96,NULL,novo,NULL,3,centralno,NULL,1,NULL,NULL,NULL,4,NULL
-112161,stan,prodaja,Beograd,Vračar,128,NULL,renovirano,NULL,3,centralno,NULL,NULL,1,NULL,uknjiženo,3.5,NULL
-112156,stan,prodaja,Beograd,Vračar,108,NULL,renovirano,NULL,2,etažno,NULL,NULL,1,NULL,uknjiženo,3,NULL
-112154,stan,prodaja,Beograd,Beograd centar,155,NULL,NULL,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,5,NULL
-112127,stan,prodaja,Beograd,Stari Grad opština,105,NULL,renovirano,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,3,NULL
-112109,stan,prodaja,Beograd,Novi Beograd,126,NULL,novo,NULL,5,centralno,prazno,1,1,NULL,uknjiženo,4,3
-112064,stan,prodaja,Beograd,Vračar,115,2007,NULL,NULL,5,centralno,NULL,1,1,NULL,uknjiženo,3,1
-112059,stan,prodaja,Beograd,Stari Grad opština,105,1976,NULL,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,4,NULL
-112052,stan,prodaja,Beograd,Stari Grad opština,80,NULL,NULL,NULL,4,etažno,prazno,1,NULL,NULL,uknjiženo,3,NULL
-112050,stan,prodaja,Beograd,Novi Beograd,147,1998,uobičajeno,NULL,6,centralno,prazno,1,NULL,NULL,uknjiženo,3,2
-112011,stan,prodaja,Beograd,Voždovac opština,140,NULL,novo,NULL,5,centralno,namešteno,1,1,NULL,uknjiženo,4,NULL
-111930,stan,prodaja,Beograd,Čukarica,152,2010,novo,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,4,1
-111908,stan,prodaja,Beograd,Neimar,75,NULL,novo,NULL,1,centralno,namešteno,1,NULL,NULL,uknjiženo,2,NULL
-111907,stan,prodaja,Beograd,Stari Grad opština,102,2020,novo,NULL,7,centralno,prazno,1,1,NULL,nije uknjiženo,2,NULL
-111862,stan,prodaja,Beograd,Vračar,330,NULL,NULL,NULL,1,na struju,NULL,NULL,NULL,NULL,uknjiženo,6,NULL
-111846,stan,prodaja,Beograd,Novi Beograd,170,NULL,renovirano,NULL,9,centralno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-111838,stan,prodaja,Beograd,Savski Venac,150,2005,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,2
-111835,stan,prodaja,Beograd,Zvezdara opština,195,2007,renovirano,NULL,1,na struju,NULL,NULL,1,NULL,uknjiženo,4,2
-111832,stan,prodaja,Beograd,Savski Venac,240,2005,NULL,NULL,NULL,na gas,NULL,NULL,1,NULL,uknjiženo,5,3
-111830,stan,prodaja,Beograd,Stari Grad opština,195,NULL,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,6,NULL
-111806,stan,prodaja,Beograd,Stari Grad opština,105,NULL,renovirano,NULL,3,centralno,prazno,NULL,NULL,NULL,uknjiženo,4,1
-111794,stan,prodaja,Beograd,Vračar,115,NULL,renovirano,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,4,NULL
-111790,stan,prodaja,Beograd,Beograd,125,NULL,renovirano,NULL,4,etažno,NULL,1,NULL,NULL,uknjiženo,5,NULL
-111788,stan,prodaja,Beograd,Beograd,105,NULL,renovirano,NULL,5,NULL,NULL,1,NULL,NULL,uknjiženo,5,NULL
-111777,stan,prodaja,Beograd,Beograd,100,2007,novo,NULL,4,centralno,prazno,1,1,NULL,uknjiženo,3,NULL
-111772,stan,prodaja,Beograd,Savski Venac,74,2011,novo,NULL,3,etažno,prazno,1,NULL,NULL,uknjiženo,3,2
-111763,stan,prodaja,Beograd,Dorćol,110,1930,uobičajeno,NULL,3,kaljeva peć,prazno,NULL,NULL,NULL,uknjiženo,4,2
-111761,stan,prodaja,Beograd,Stari Grad opština,95,1923,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,1
-111733,stan,prodaja,Beograd,Stari Grad opština,84,NULL,uobičajeno,NULL,1,kaljeva peć,prazno,NULL,NULL,NULL,uknjiženo,3,NULL
-111730,stan,prodaja,Beograd,Stari Grad opština,110,1963,uobičajeno,NULL,3,centralno,polunamešteno,1,NULL,NULL,uknjiženo,4.5,1
-111729,stan,prodaja,Beograd,Voždovac opština,138,NULL,novo,NULL,2,na gas,prazno,NULL,NULL,NULL,uknjiženo,3,NULL
-111728,stan,prodaja,Beograd,Savski Venac,90,NULL,novo,NULL,3,centralno,polunamešteno,NULL,NULL,NULL,uknjiženo,3,NULL
-111722,stan,prodaja,Beograd,Vračar,110,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,4,2
-111673,stan,prodaja,Beograd,Vračar,90,1969,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,2
-111660,stan,prodaja,Beograd,Čukarica,233,2019,NULL,NULL,6,na gas,prazno,1,NULL,NULL,uknjiženo,5,NULL
-111659,stan,prodaja,Beograd,Savski Venac,1034,2019,NULL,NULL,2,etažno,prazno,NULL,NULL,NULL,uknjiženo,8,NULL
-111602,stan,prodaja,Beograd,Zvezdara opština,130,1985,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,4.5,2
-111592,stan,prodaja,Beograd,Vračar,107,NULL,renovirano,NULL,2,centralno,namešteno,1,1,NULL,uknjiženo,3,1
-111591,stan,prodaja,Beograd,Voždovac opština,120,2019,novo,NULL,3,centralno,NULL,1,1,NULL,uknjiženo,4.5,2
-111580,stan,prodaja,Beograd,Voždovac opština,115,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,5,2
-111573,stan,prodaja,Beograd,Stari Grad opština,100,2019,novo,NULL,3,centralno,prazno,1,NULL,NULL,NULL,3,2
-111571,stan,prodaja,Beograd,Čukarica,176,1970,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,5,NULL
-111543,stan,prodaja,Beograd,Savski Venac,122,1963,NULL,NULL,2,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,NULL
-111527,stan,prodaja,Beograd,Vračar,112,2012,novo,NULL,3,etažno,polunamešteno,1,NULL,NULL,uknjiženo,4,NULL
-111483,stan,prodaja,Beograd,Zvezdara opština,107,2017,NULL,NULL,6,centralno,NULL,1,1,NULL,uknjiženo,3,1
-111480,stan,prodaja,Beograd,Blok 11,112,2020,NULL,NULL,8,centralno,NULL,1,1,NULL,NULL,3,2
-111463,stan,prodaja,Beograd,Stari Grad opština,100,NULL,novo,NULL,5,centralno,polunamešteno,1,NULL,NULL,uknjiženo,4,NULL
-111431,stan,prodaja,Beograd,Terazije,120,1937,renovirano,NULL,1,centralno,polunamešteno,NULL,NULL,NULL,uknjiženo,4,1
-111423,stan,prodaja,Beograd,Voždovac opština,90,NULL,novo,NULL,4,centralno,namešteno,1,NULL,NULL,uknjiženo,4,NULL
-111421,stan,prodaja,Beograd,Blok 11,119,NULL,novo,NULL,1,centralno,prazno,1,1,NULL,uknjiženo,5,NULL
-111417,stan,prodaja,Beograd,Blok 11,71,NULL,novo,NULL,1,centralno,prazno,1,1,NULL,uknjiženo,3,NULL
-111416,stan,prodaja,Beograd,Blok 11,87,NULL,novo,NULL,6,centralno,prazno,1,1,NULL,uknjiženo,3,NULL
-111383,stan,prodaja,Beograd,Čukarica,101,2019,NULL,NULL,6,centralno,prazno,1,NULL,NULL,nije uknjiženo,3,NULL
-114034,stan,prodaja,Beograd,Vidikovac,42,NULL,uobičajeno,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1
-113802,stan,prodaja,Beograd,Čukarica,23,NULL,uobičajeno,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,1,1
-113688,stan,prodaja,Beograd,Mladenovac opština,65,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,1
-112749,stan,prodaja,Beograd,Čukarica,35,NULL,uobičajeno,NULL,6,etažno,namešteno,NULL,NULL,NULL,nije uknjiženo,1.5,NULL
-112698,stan,prodaja,Beograd,Zemun,44,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1
-112697,stan,prodaja,Beograd,Zemun,44,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1
-112691,stan,prodaja,Beograd,Zemun,44,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1
-112622,stan,prodaja,Beograd,Zemun,36,NULL,uobičajeno,NULL,13,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,1
-112343,stan,prodaja,Beograd,Palilula opština,54,NULL,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,NULL,2,1
-112230,stan,prodaja,Beograd,Palilula opština,38,NULL,renovirano,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,1,NULL
-112205,stan,prodaja,Beograd,Palilula opština,16,NULL,renovirano,NULL,3,na struju,NULL,NULL,NULL,NULL,uknjiženo,1,NULL
-112201,stan,prodaja,Beograd,Palilula opština,51,NULL,renovirano,NULL,2,na struju,NULL,NULL,1,NULL,uknjiženo,2,NULL
-112183,stan,prodaja,Beograd,Grocka opština,40,NULL,novo,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL
-112158,stan,prodaja,Beograd,Palilula opština,36,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,1.5,NULL
-112129,stan,prodaja,Beograd,Palilula opština,51,NULL,NULL,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,2,NULL
-112030,stan,prodaja,Beograd,Palilula opština,54,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,NULL,2,1
-111932,stan,prodaja,Beograd,Donji Dorćol,33,NULL,uobičajeno,NULL,4,na struju,prazno,1,NULL,NULL,uknjiženo,1.5,1
-111886,stan,prodaja,Beograd,Zvezdara opština,56,NULL,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,nije uknjiženo,2.5,NULL
-111860,stan,prodaja,Beograd,Zvezdara opština,59,2019,novo,NULL,2,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-111704,stan,prodaja,Beograd,Zvezdara opština,18,2017,NULL,NULL,4,na struju,NULL,1,NULL,NULL,uknjiženo,0.5,NULL
-111672,stan,prodaja,Beograd,Zemun,40,NULL,novo,NULL,2,podno,NULL,NULL,NULL,NULL,nije uknjiženo,1.5,NULL
-111667,stan,prodaja,Beograd,Voždovac opština,24,NULL,uobičajeno,NULL,5,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,1,NULL
-111628,stan,prodaja,Beograd,Palilula opština,39,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,2,1
-111393,stan,prodaja,Beograd,Vračar,46,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,2,NULL
-111386,stan,prodaja,Beograd,Rakovica opština,28,NULL,novo,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,0.5,NULL
-111385,stan,prodaja,Beograd,Palilula opština,23,NULL,uobičajeno,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,1,NULL
-111374,stan,prodaja,Beograd,Voždovac opština,47,NULL,novo,NULL,3,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL
-111333,stan,prodaja,Beograd,Zvezdara opština,26,NULL,NULL,NULL,4,centralno,NULL,NULL,NULL,NULL,uknjiženo,1,1
-111259,stan,prodaja,Beograd,Čukarica,61,NULL,NULL,NULL,NULL,na gas,prazno,NULL,NULL,NULL,uknjiženo,1.5,NULL
-111254,stan,prodaja,Beograd,Rakovica opština,44,NULL,potrebno renoviranje,NULL,4,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL
-111098,stan,prodaja,Beograd,Zvezdara opština,25,2012,NULL,NULL,4,etažno,NULL,NULL,NULL,NULL,uknjiženo,0.5,NULL
-111076,stan,prodaja,Beograd,Palilula opština,31,1978,uobičajeno,NULL,1,na struju,NULL,NULL,NULL,NULL,NULL,1,NULL
-110817,stan,prodaja,Beograd,Palilula opština,46,1972,uobičajeno,NULL,1,etažno,prazno,NULL,NULL,NULL,NULL,1,1
-109434,stan,prodaja,Beograd,Grocka opština,40,NULL,novo,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL
-109419,stan,prodaja,Beograd,Palilula opština,16,NULL,renovirano,NULL,3,na struju,NULL,NULL,NULL,NULL,uknjiženo,1,NULL
-109367,stan,prodaja,Beograd,Palilula opština,36,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,1.5,NULL
-114241,stan,prodaja,Beograd,Voždovac opština,34,NULL,novo,NULL,7,etažno,NULL,1,1,NULL,NULL,2,NULL
-114204,stan,prodaja,Beograd,Zemun,45,NULL,NULL,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,1.5,1
-114161,stan,prodaja,Beograd,Zvezdara opština,43,2020,u izgradnji,NULL,1,centralno,prazno,1,NULL,NULL,u procesu uknjižavanja,1.5,1
-114158,stan,prodaja,Beograd,Novi Beograd,36,NULL,NULL,NULL,4,centralno,NULL,NULL,NULL,NULL,uknjiženo,1,1
-114112,stan,prodaja,Beograd,Zvezdara opština,34,1937,NULL,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-114111,stan,prodaja,Beograd,Zvezdara opština,63,NULL,NULL,NULL,13,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,1
-114110,stan,prodaja,Beograd,Novi Beograd,55,NULL,novo,NULL,2,NULL,NULL,NULL,NULL,NULL,uknjiženo,2,1
-114109,stan,prodaja,Beograd,Voždovac opština,79,1987,NULL,NULL,7,centralno,namešteno,1,NULL,NULL,uknjiženo,3.5,NULL
-114106,stan,prodaja,Beograd,Obrenovac opština,112,NULL,novo,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,5,NULL
-114105,stan,prodaja,Beograd,Zvezdara opština,64,NULL,potrebno renoviranje,NULL,4,NULL,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-114041,stan,prodaja,Beograd,Zemun,66,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-114040,stan,prodaja,Beograd,Zemun,66,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-114039,stan,prodaja,Beograd,Zemun,66,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-114037,stan,prodaja,Beograd,Zemun,53,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-114036,stan,prodaja,Beograd,Zemun,62,2020,novo,NULL,2,etažno,prazno,NULL,NULL,NULL,NULL,2,1
-114032,stan,prodaja,Beograd,Zemun,38,NULL,uobičajeno,NULL,2,NULL,prazno,NULL,NULL,NULL,NULL,1.5,1
-114031,stan,prodaja,Beograd,Vidikovac,60,2019,novo,NULL,5,etažno,prazno,1,NULL,NULL,uknjiženo,2.5,1
-114023,stan,prodaja,Beograd,Zemun,96,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,NULL,3,1
-114021,stan,prodaja,Beograd,Zvezdara opština,50,NULL,novo,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,1,1
-114020,stan,prodaja,Beograd,Zvezdara opština,54,NULL,novo,NULL,5,etažno,polunamešteno,1,NULL,NULL,uknjiženo,2.5,NULL
-114015,stan,prodaja,Beograd,Stari Grad opština,24,NULL,renovirano,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,1,NULL
-113832,stan,prodaja,Beograd,Voždovac,42,NULL,NULL,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-113818,stan,prodaja,Beograd,Zvezdara opština,51,NULL,renovirano,NULL,1,na struju,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-113783,stan,prodaja,Beograd,Palilula opština,60,NULL,NULL,NULL,1,centralno,prazno,NULL,NULL,NULL,NULL,3,NULL
-113675,stan,prodaja,Beograd,Palilula opština,52,NULL,luksuzno,NULL,3,norveški radijatori,NULL,NULL,NULL,NULL,NULL,2.5,NULL
-113618,stan,prodaja,Beograd,Zvezdara opština,59,1989,renovirano,NULL,4,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-113143,stan,prodaja,Beograd,Zemun,36,2020,NULL,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,0.5,1
-113073,stan,prodaja,Beograd,Palilula opština,44,NULL,NULL,NULL,4,TA peć,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-113068,stan,prodaja,Beograd,Palilula opština,51,NULL,NULL,NULL,4,TA peć,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-113035,stan,prodaja,Beograd,Savski Venac,65,2006,uobičajeno,NULL,4,etažno,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112920,stan,prodaja,Beograd,Voždovac opština,31,2018,NULL,NULL,5,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-112896,stan,prodaja,Beograd,Mladenovac opština,87,NULL,NULL,NULL,3,na gas,NULL,1,NULL,NULL,uknjiženo,4,1
-112893,stan,prodaja,Beograd,Zemun,45,NULL,uobičajeno,NULL,4,etažno,prazno,NULL,NULL,NULL,uknjiženo,1.5,1
-112884,stan,prodaja,Beograd,Bežanijska kosa,65,2000,potrebno renoviranje,NULL,NULL,NULL,NULL,NULL,NULL,NULL,u procesu uknjižavanja,2,1
-112883,stan,prodaja,Beograd,Vračar,38,NULL,NULL,NULL,3,na struju,namešteno,NULL,NULL,NULL,uknjiženo,2,NULL
-112870,stan,prodaja,Beograd,Zvezdara opština,41,NULL,uobičajeno,NULL,6,centralno,polunamešteno,1,NULL,NULL,uknjiženo,1.5,NULL
-112847,stan,prodaja,Beograd,Zemun opština,90,1980,renovirano,NULL,1,NULL,NULL,NULL,NULL,NULL,uknjiženo,4,1
-112753,stan,prodaja,Beograd,Voždovac opština,38,2021,u izgradnji,NULL,3,na gas,namešteno,1,1,NULL,nije uknjiženo,2,NULL
-112712,stan,prodaja,Beograd,Zemun,65,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-112696,stan,prodaja,Beograd,Zemun,48,2020,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-112695,stan,prodaja,Beograd,Zemun,68,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-112694,stan,prodaja,Beograd,Zemun,48,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-112693,stan,prodaja,Beograd,Zemun,68,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-112692,stan,prodaja,Beograd,Zemun,68,2020,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-112689,stan,prodaja,Beograd,Zemun,53,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-112688,stan,prodaja,Beograd,Zemun,65,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1
-112678,stan,prodaja,Beograd,Zemun,57,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112675,stan,prodaja,Beograd,Rakovica opština,56,1993,uobičajeno,NULL,10,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112673,stan,prodaja,Beograd,Vračar,28,1928,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,uknjiženo,1,1
-112671,stan,prodaja,Beograd,Čukarica,41,NULL,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,1
-112670,stan,prodaja,Beograd,Čukarica,54,NULL,uobičajeno,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-112669,stan,prodaja,Beograd,Zemun,67,2015,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,2.5,1
-112667,stan,prodaja,Beograd,Čukarica,88,NULL,uobičajeno,NULL,17,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,1
-112666,stan,prodaja,Beograd,Zemun,54,2018,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-112665,stan,prodaja,Beograd,Zemun,47,1990,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,NULL,2.5,1
-112664,stan,prodaja,Beograd,Zemun,53,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1
-112651,stan,prodaja,Beograd,Rakovica opština,50,NULL,NULL,NULL,2,etažno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL
-112599,stan,prodaja,Beograd,Palilula opština,59,NULL,NULL,NULL,4,na struju,NULL,NULL,NULL,NULL,nije uknjiženo,3,NULL
-112593,stan,prodaja,Beograd,Zvezdara opština,46,2009,novo,NULL,1,NULL,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-112592,stan,prodaja,Beograd,Medaković,82,2000,NULL,NULL,2,etažno,NULL,NULL,NULL,NULL,u procesu uknjižavanja,2.5,1
-112556,stan,prodaja,Beograd,Čukarica,36,1990,renovirano,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL
-112541,stan,prodaja,Beograd,Karaburma,59,2008,uobičajeno,NULL,4,TA peć,polunamešteno,NULL,NULL,NULL,uknjiženo,3,1
-112472,stan,prodaja,Beograd,Zvezdara opština,71,1980,uobičajeno,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL
-112428,stan,prodaja,Beograd,Voždovac,65,1992,uobičajeno,NULL,11,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-112417,stan,prodaja,Beograd,Čukarica,55,2008,novo,NULL,1,na gas,prazno,NULL,NULL,NULL,uknjiženo,3,1
-112356,stan,prodaja,Beograd,Vračar,31,NULL,renovirano,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,1,1
-112353,stan,prodaja,Beograd,Palilula opština,52,NULL,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,2,1
-112350,stan,prodaja,Beograd,Zemun opština,65,NULL,renovirano,NULL,10,centralno,NULL,1,NULL,NULL,uknjiženo,2,1
-112348,stan,prodaja,Beograd,Voždovac opština,33,NULL,uobičajeno,NULL,3,centralno,prazno,NULL,NULL,NULL,uknjiženo,1,1
-112347,stan,prodaja,Beograd,Bežanijski Blokovi,45,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,1,1
-112344,stan,prodaja,Beograd,Novi Beograd,30,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,1,1
-112337,stan,prodaja,Beograd,Vračar,37,NULL,NULL,NULL,1,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-112314,stan,prodaja,Beograd,Voždovac opština,56,NULL,potrebno renoviranje,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-112310,stan,prodaja,Beograd,Stari Grad opština,53,NULL,NULL,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,1
-112307,stan,prodaja,Beograd,Zvezdara opština,61,NULL,novo,NULL,5,etažno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112299,stan,prodaja,Beograd,Zemun,53,NULL,NULL,NULL,2,etažno,NULL,1,1,NULL,uknjiženo,2,1
-112296,stan,prodaja,Beograd,Zemun,51,2020,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,1
-112208,stan,prodaja,Beograd,Zvezdara opština,52,NULL,novo,NULL,4,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL
-112207,stan,prodaja,Beograd,Palilula opština,57,NULL,novo,NULL,4,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-112194,stan,prodaja,Beograd,Zvezdara opština,26,NULL,novo,NULL,2,etažno,NULL,1,NULL,NULL,NULL,1.5,NULL
-112182,stan,prodaja,Beograd,Zemun,51,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-112181,stan,prodaja,Beograd,Zvezdara opština,43,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-112180,stan,prodaja,Beograd,Zvezdara opština,45,NULL,novo,NULL,4,etažno,NULL,1,NULL,NULL,NULL,2,NULL
-112178,stan,prodaja,Beograd,Stari Grad opština,38,NULL,uobičajeno,NULL,4,etažno,NULL,1,1,NULL,uknjiženo,1,NULL
-112177,stan,prodaja,Beograd,Zvezdara opština,53,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,NULL,2,NULL
-112174,stan,prodaja,Beograd,Palilula opština,86,NULL,uobičajeno,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,NULL
-112153,stan,prodaja,Beograd,Voždovac opština,56,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,NULL,2.5,NULL
-112134,stan,prodaja,Beograd,Mirijevo,78,NULL,NULL,NULL,8,centralno,NULL,1,NULL,NULL,u procesu uknjižavanja,3,NULL
-112132,stan,prodaja,Beograd,Bežanijski Blokovi,65,NULL,renovirano,NULL,14,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-112057,stan,prodaja,Beograd,Novi Beograd,36,1975,NULL,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,NULL
-112027,stan,prodaja,Beograd,Čukarica,57,1970,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL
-112024,stan,prodaja,Beograd,Zemun,45,NULL,novo,NULL,2,podno,prazno,1,1,NULL,uknjiženo,1.5,NULL
-111937,stan,prodaja,Beograd,Voždovac opština,42,2010,renovirano,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL
-111936,stan,prodaja,Beograd,Dorćol,27,1970,renovirano,NULL,5,centralno,namešteno,1,NULL,NULL,uknjiženo,1,NULL
-111934,stan,prodaja,Beograd,Zemun,55,1980,renovirano,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-111933,stan,prodaja,Beograd,Palilula opština,39,NULL,uobičajeno,NULL,NULL,centralno,prazno,NULL,NULL,NULL,uknjiženo,1,1
-111931,stan,prodaja,Beograd,Zvezdara opština,40,NULL,novo,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,2,1
-111929,stan,prodaja,Beograd,Novi Beograd,56,1970,uobičajeno,NULL,11,centralno,prazno,1,NULL,NULL,uknjiženo,2,1
-111917,stan,prodaja,Beograd,Čukarica opština,52,NULL,novo,NULL,1,na gas,prazno,NULL,NULL,NULL,uknjiženo,2,1
-111911,stan,prodaja,Beograd,Bežanijski Blokovi,39,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,1,1
-111910,stan,prodaja,Beograd,Zemun opština,43,NULL,uobičajeno,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL
-111909,stan,prodaja,Beograd,Zemun,40,NULL,renovirano,NULL,2,etažno,prazno,NULL,NULL,NULL,uknjiženo,1.5,NULL
-111906,stan,prodaja,Beograd,Voždovac opština,72,1975,NULL,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,NULL
-111885,stan,prodaja,Beograd,Zemun,37,2015,NULL,NULL,1,podno,NULL,NULL,NULL,NULL,uknjiženo,1.5,1
-111883,stan,prodaja,Beograd,Zemun,64,1962,NULL,NULL,4,etažno,prazno,1,NULL,NULL,uknjiženo,2,NULL
-111863,stan,prodaja,Beograd,Čukarica,93,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL
-111855,stan,prodaja,Beograd,Novi Beograd,45,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,1,NULL
-111850,stan,prodaja,Beograd,Zvezdara opština,65,1985,renovirano,NULL,11,centralno,NULL,1,NULL,NULL,uknjiženo,4,NULL
-111844,stan,prodaja,Beograd,Zvezdara opština,60,1985,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL
-111837,stan,prodaja,Beograd,Stari Grad opština,35,NULL,uobičajeno,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,1,1
-111833,stan,prodaja,Beograd,Grocka opština,44,NULL,renovirano,NULL,3,etažno,polunamešteno,NULL,NULL,NULL,uknjiženo,2.5,1
-111804,stan,prodaja,Beograd,Čukarica,77,NULL,NULL,NULL,7,NULL,NULL,NULL,NULL,NULL,uknjiženo,2.5,1
-111762,stan,prodaja,Beograd,Palilula opština,56,1980,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,uknjiženo,2,1
-111756,stan,prodaja,Beograd,Beograd centar,50,1938,NULL,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,2,NULL
-111755,stan,prodaja,Beograd,Bežanijski Blokovi,55,NULL,uobičajeno,NULL,13,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL
-111754,stan,prodaja,Beograd,Zvezdara opština,30,NULL,NULL,NULL,2,centralno,NULL,NULL,NULL,NULL,NULL,1,NULL
+114229,stan,prodaja,Beograd,Savski Venac,43,1970,NULL,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,110000
+114207,stan,prodaja,Beograd,Vračar,62,NULL,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,1,125000
+114206,stan,prodaja,Beograd,Vračar,64,NULL,NULL,NULL,4,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,1,140000
+114205,stan,prodaja,Beograd,Zemun,58,NULL,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,2.5,1,104400
+114159,stan,prodaja,Beograd,Novi Beograd,67,NULL,NULL,NULL,5,NULL,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,120600
+114155,stan,prodaja,Beograd,Zemun,94,NULL,renovirano,NULL,3,NULL,NULL,NULL,NULL,NULL,uknjiženo,3,2,133000
+114151,stan,prodaja,Beograd,Zvezdara opština,74,NULL,u izgradnji,NULL,1,centralno,prazno,1,NULL,NULL,u procesu uknjižavanja,4,2,147000
+114107,stan,prodaja,Beograd,Voždovac opština,63,2021,NULL,NULL,2,centralno,NULL,1,1,NULL,u procesu uknjižavanja,3,1,113400
+114025,stan,prodaja,Beograd,Stari Grad opština,41,NULL,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,1,107000
+114024,stan,prodaja,Beograd,Vračar,42,2005,novo,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,1,129000
+114022,stan,prodaja,Beograd,Voždovac opština,79,2017,novo,NULL,4,centralno,NULL,1,1,NULL,uknjiženo,3,NULL,147000
+114019,stan,prodaja,Beograd,Bežanijski Blokovi,72,NULL,novo,NULL,1,centralno,polunamešteno,1,1,NULL,uknjiženo,2.5,NULL,122500
+114012,stan,prodaja,Beograd,Voždovac opština,60,NULL,NULL,NULL,3,etažno,prazno,1,NULL,NULL,uknjiženo,2.5,NULL,102000
+113852,stan,prodaja,Beograd,Čukarica opština,75,NULL,renovirano,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,102000
+113835,stan,prodaja,Beograd,Beograd,76,1963,NULL,NULL,8,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,140000
+113781,stan,prodaja,Beograd,Novi Beograd,73,NULL,NULL,NULL,4,centralno,namešteno,1,NULL,NULL,uknjiženo,2,NULL,149900
+113763,stan,prodaja,Beograd,Voždovac opština,49,2010,NULL,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL,122000
+113760,stan,prodaja,Beograd,Palilula opština,56,1982,uobičajeno,NULL,8,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,110000
+113652,stan,prodaja,Beograd,Vračar,40,NULL,uobičajeno,NULL,6,centralno,namešteno,NULL,NULL,NULL,NULL,1,1,108000
+113321,stan,prodaja,Beograd,Palilula opština,58,1982,uobičajeno,NULL,8,centralno,namešteno,1,NULL,NULL,uknjiženo,2,1,105000
+113141,stan,prodaja,Beograd,Zemun,60,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,2,1,124856
+113140,stan,prodaja,Beograd,Zemun,50,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,2,1,120903
+113138,stan,prodaja,Beograd,Zemun,71,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,3,NULL,147533
+113071,stan,prodaja,Beograd,Stari Grad opština,44,NULL,NULL,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,105000
+113034,stan,prodaja,Beograd,Savski Venac,93,2020,novo,NULL,1,etažno,prazno,1,NULL,NULL,uknjiženo,2,1,109500
+113032,stan,prodaja,Beograd,Novi Beograd,59,NULL,NULL,NULL,2,NULL,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,128087
+113031,stan,prodaja,Beograd,Novi Beograd,80,NULL,renovirano,NULL,10,NULL,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,145000
+112939,stan,prodaja,Beograd,Čukarica,65,2010,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,138000
+112924,stan,prodaja,Beograd,Bežanijska kosa,97,NULL,NULL,NULL,5,centralno,prazno,NULL,NULL,NULL,uknjiženo,3.5,NULL,150000
+112918,stan,prodaja,Beograd,Čukarica,55,2016,novo,NULL,6,na gas,namešteno,1,1,NULL,uknjiženo,2,NULL,122000
+112884,stan,prodaja,Beograd,Bežanijska kosa,65,2000,potrebno renoviranje,NULL,NULL,NULL,NULL,NULL,NULL,NULL,u procesu uknjižavanja,2,1,100000
+112754,stan,prodaja,Beograd,Voždovac opština,72,2021,u izgradnji,NULL,2,na gas,namešteno,1,1,NULL,nije uknjiženo,3,NULL,146400
+112676,stan,prodaja,Beograd,Voždovac opština,75,1978,uobičajeno,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,2.5,1,110000
+112674,stan,prodaja,Beograd,Neimar,33,2011,uobičajeno,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,130000
+112672,stan,prodaja,Beograd,Čukarica,97,1990,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,3.5,2,119000
+112668,stan,prodaja,Beograd,Novi Beograd,70,1975,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3.5,2,140000
+112655,stan,prodaja,Beograd,Palilula,58,NULL,NULL,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,NULL,112200
+112650,stan,prodaja,Beograd,Voždovac opština,47,2020,novo,NULL,3,etažno,prazno,1,1,NULL,uknjiženo,2,NULL,106250
+112649,stan,prodaja,Beograd,Čukarica,73,1964,NULL,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL,149000
+112641,stan,prodaja,Beograd,Novi Beograd,74,NULL,uobičajeno,NULL,3,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1,145000
+112630,stan,prodaja,Beograd,Voždovac opština,74,2014,NULL,NULL,2,centralno,NULL,NULL,1,NULL,uknjiženo,3.5,1,139000
+112629,stan,prodaja,Beograd,Palilula opština,69,1968,renovirano,NULL,4,centralno,polunamešteno,1,NULL,NULL,uknjiženo,2.5,NULL,149000
+112620,stan,prodaja,Beograd,Savski Venac,57,2017,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL,118500
+112619,stan,prodaja,Beograd,Vračar,62,NULL,NULL,NULL,4,na struju,prazno,1,NULL,NULL,uknjiženo,2,NULL,124000
+112618,stan,prodaja,Beograd,Stari Grad opština,43,NULL,NULL,NULL,13,centralno,prazno,1,NULL,NULL,nije uknjiženo,1.5,NULL,112000
+112497,stan,prodaja,Beograd,Blok 11,50,NULL,novo,NULL,2,centralno,prazno,1,1,NULL,uknjiženo,3,NULL,145629
+112496,stan,prodaja,Beograd,Stari Grad opština,60,NULL,NULL,NULL,5,TA peć,NULL,NULL,NULL,NULL,uknjiženo,2,1,120000
+112422,stan,prodaja,Beograd,Voždovac opština,66,2019,novo,NULL,3,NULL,prazno,NULL,NULL,NULL,uknjiženo,3,1,132000
+112420,stan,prodaja,Beograd,Čukarica,105,NULL,novo,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,4,2,145000
+112418,stan,prodaja,Beograd,Čukarica,75,NULL,novo,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,2,121000
+112354,stan,prodaja,Beograd,Čukarica,103,NULL,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,4,1,145000
+112351,stan,prodaja,Beograd,Dorćol,49,1993,uobičajeno,NULL,1,NULL,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,105000
+112346,stan,prodaja,Beograd,Voždovac opština,48,NULL,uobičajeno,NULL,4,NULL,prazno,NULL,NULL,NULL,uknjiženo,1.5,1,105000
+112345,stan,prodaja,Beograd,Savamala,69,1970,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,2,140000
+112330,stan,prodaja,Beograd,Vračar,60,NULL,renovirano,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,1,130000
+112323,stan,prodaja,Beograd,Vračar,60,NULL,renovirano,NULL,4,norveški radijatori,prazno,NULL,NULL,NULL,uknjiženo,3,1,130000
+112308,stan,prodaja,Beograd,Palilula,62,NULL,NULL,NULL,2,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,3,2,135000
+112306,stan,prodaja,Beograd,Vračar,37,NULL,NULL,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,105000
+112304,stan,prodaja,Beograd,Voždovac opština,67,NULL,NULL,NULL,2,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,1,110550
+112302,stan,prodaja,Beograd,Vračar,64,2020,NULL,NULL,3,centralno,NULL,1,1,NULL,uknjiženo,3,1,128000
+112301,stan,prodaja,Beograd,Vračar,96,NULL,NULL,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,4.5,1,144000
+112297,stan,prodaja,Beograd,Stari Grad opština,69,NULL,potrebno renoviranje,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,129000
+112280,stan,prodaja,Beograd,Zemun,58,2020,NULL,NULL,2,etažno,NULL,1,1,NULL,uknjiženo,2.5,1,104400
+112218,stan,prodaja,Beograd,Zemun,60,NULL,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,uknjiženo,2.5,1,139000
+112210,stan,prodaja,Beograd,Zemun,59,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,106200
+112206,stan,prodaja,Beograd,Voždovac opština,73,NULL,uobičajeno,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,120000
+112204,stan,prodaja,Beograd,Zvezdara opština,59,NULL,novo,NULL,3,centralno,NULL,1,1,NULL,uknjiženo,2.5,NULL,148720
+112196,stan,prodaja,Beograd,Beograd,55,NULL,renovirano,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL,120000
+112191,stan,prodaja,Beograd,Palilula opština,60,NULL,novo,NULL,5,etažno,NULL,1,NULL,NULL,u procesu uknjižavanja,2,NULL,120000
+112184,stan,prodaja,Beograd,Stari Grad opština,48,NULL,renovirano,NULL,1,na struju,NULL,1,NULL,NULL,uknjiženo,1.5,NULL,110000
+112179,stan,prodaja,Beograd,Zemun opština,59,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,118000
+112164,stan,prodaja,Beograd,Bežanijski Blokovi,66,NULL,uobičajeno,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,109000
+112159,stan,prodaja,Beograd,Stari Grad opština,55,NULL,renovirano,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,130000
+112157,stan,prodaja,Beograd,Stari Grad opština,62,1927,NULL,NULL,3,na struju,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,119000
+112155,stan,prodaja,Beograd,Novi Beograd,78,NULL,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,145000
+112151,stan,prodaja,Beograd,Palilula,62,NULL,uobičajeno,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,140000
+112150,stan,prodaja,Beograd,Voždovac opština,66,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,2.5,NULL,108000
+112142,stan,prodaja,Beograd,Zvezdara opština,82,2012,uobičajeno,NULL,8,podno,NULL,1,NULL,NULL,uknjiženo,4,1,149000
+112140,stan,prodaja,Beograd,Zemun,61,2020,novo,NULL,2,podno,NULL,NULL,NULL,NULL,NULL,3,NULL,105400
+112137,stan,prodaja,Beograd,Zemun,71,2020,novo,NULL,1,podno,NULL,NULL,NULL,NULL,NULL,4,NULL,123500
+112133,stan,prodaja,Beograd,Čukarica,80,1989,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,140000
+112131,stan,prodaja,Beograd,Bežanijska kosa,64,NULL,renovirano,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,102000
+112126,stan,prodaja,Beograd,Čukarica,85,NULL,renovirano,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,150000
+112114,stan,prodaja,Beograd,Novi Beograd,68,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,119500
+112112,stan,prodaja,Beograd,Zemun,113,NULL,novo,NULL,3,etažno,prazno,NULL,1,NULL,uknjiženo,4,1,150000
+112084,stan,prodaja,Beograd,Čukarica,58,1997,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL,104500
+112080,stan,prodaja,Beograd,Voždovac,59,NULL,novo,NULL,1,centralno,prazno,1,1,NULL,uknjiženo,2,1,150000
+112063,stan,prodaja,Beograd,Vračar,50,1938,NULL,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL,139000
+112060,stan,prodaja,Beograd,Stari Grad opština,45,NULL,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,4,1,118000
+112053,stan,prodaja,Beograd,Vračar,69,1980,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,136000
+112029,stan,prodaja,Beograd,Zemun,58,NULL,novo,NULL,1,podno,prazno,1,1,NULL,uknjiženo,2.5,NULL,104400
+112026,stan,prodaja,Beograd,Stari Grad opština,48,NULL,renovirano,NULL,1,TA peć,prazno,1,NULL,NULL,uknjiženo,1.5,NULL,110000
+111928,stan,prodaja,Beograd,Čukarica,68,1990,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,1,110000
+111912,stan,prodaja,Beograd,Vračar,64,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,NULL,3,NULL,128000
+111904,stan,prodaja,Beograd,Novi Beograd,64,NULL,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1,135000
+111863,stan,prodaja,Beograd,Čukarica,93,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,100000
+111858,stan,prodaja,Beograd,Novi Beograd,75,NULL,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,116000
+111857,stan,prodaja,Beograd,Voždovac opština,74,2016,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,146900
+111841,stan,prodaja,Beograd,Savski Venac,57,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,1,130000
+111789,stan,prodaja,Beograd,Zvezdara opština,70,2008,NULL,NULL,4,etažno,NULL,1,1,NULL,uknjiženo,3,NULL,120000
+111773,stan,prodaja,Beograd,Čukarica,97,NULL,uobičajeno,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL,120000
+111760,stan,prodaja,Beograd,Vračar,53,1980,uobičajeno,NULL,8,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,135000
+111757,stan,prodaja,Beograd,Neimar,42,2009,NULL,NULL,4,centralno,prazno,1,NULL,NULL,NULL,1.5,NULL,140000
+111725,stan,prodaja,Beograd,Vračar,96,2005,uobičajeno,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,4.5,2,145000
+111705,stan,prodaja,Beograd,Stari Grad opština,52,2020,novo,NULL,2,centralno,NULL,1,1,NULL,NULL,3,NULL,145000
+111703,stan,prodaja,Beograd,Bežanijski Blokovi,72,1977,renovirano,NULL,1,centralno,NULL,1,1,NULL,uknjiženo,2.5,NULL,122500
+111698,stan,prodaja,Beograd,Palilula,50,NULL,renovirano,NULL,4,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,108000
+111683,stan,prodaja,Beograd,Zvezdara opština,80,NULL,renovirano,NULL,4,na struju,NULL,1,NULL,NULL,uknjiženo,4,NULL,100000
+111676,stan,prodaja,Beograd,Zvezdara opština,85,2019,novo,NULL,4,centralno,NULL,1,1,NULL,uknjiženo,3,NULL,125600
+111670,stan,prodaja,Beograd,Vračar,72,NULL,novo,NULL,2,etažno,NULL,1,1,NULL,u procesu uknjižavanja,4,NULL,123840
+111661,stan,prodaja,Beograd,Čukarica,60,2019,novo,NULL,5,centralno,prazno,1,1,NULL,nije uknjiženo,2,NULL,150000
+111604,stan,prodaja,Beograd,Vračar,76,1965,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,3,1,150000
+111590,stan,prodaja,Beograd,Beograd,49,2021,u izgradnji,NULL,9,centralno,NULL,1,1,NULL,u procesu uknjižavanja,1.5,1,123350
+111589,stan,prodaja,Beograd,Konjarnik,68,2020,novo,NULL,5,centralno,NULL,1,1,NULL,u procesu uknjižavanja,2.5,1,122400
+111575,stan,prodaja,Beograd,Voždovac opština,71,2013,renovirano,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,106920
+111544,stan,prodaja,Beograd,Savski Venac,60,NULL,uobičajeno,NULL,11,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL,110000
+111542,stan,prodaja,Beograd,Zvezdara opština,68,1972,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,105000
+111462,stan,prodaja,Beograd,Čukarica,75,1985,renovirano,NULL,1,na gas,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,121000
+114239,stan,prodaja,Beograd,Novi Beograd,86,NULL,uobičajeno,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,160000
+114102,stan,prodaja,Beograd,Stari Grad opština,70,NULL,uobičajeno,NULL,1,etažno,namešteno,NULL,NULL,NULL,uknjiženo,2.5,NULL,200000
+114033,stan,prodaja,Beograd,Palilula opština,80,2006,uobičajeno,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,3,1,191000
+114027,stan,prodaja,Beograd,Voždovac opština,120,NULL,NULL,NULL,4,na gas,namešteno,1,1,NULL,uknjiženo,4,3,195000
+113635,stan,prodaja,Beograd,Novi Beograd,90,NULL,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,2,167000
+113139,stan,prodaja,Beograd,Zemun,63,2020,NULL,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,3,NULL,165765
+113123,stan,prodaja,Beograd,Zemun,70,2020,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL,170198
+113089,stan,prodaja,Beograd,Zemun,70,2020,NULL,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL,186067
+113033,stan,prodaja,Beograd,Zemun,82,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL,171547
+112924,stan,prodaja,Beograd,Bežanijska kosa,97,NULL,NULL,NULL,5,centralno,prazno,NULL,NULL,NULL,uknjiženo,3.5,NULL,150000
+112922,stan,prodaja,Beograd,Savski Venac,53,NULL,novo,NULL,8,NULL,NULL,NULL,1,NULL,uknjiženo,1,NULL,180888
+112919,stan,prodaja,Beograd,Novi Beograd,94,NULL,uobičajeno,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1,190000
+112916,stan,prodaja,Beograd,Stari Grad opština,77,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,3.5,NULL,160000
+112716,stan,prodaja,Beograd,Novi Beograd,78,NULL,NULL,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,1,190000
+112663,stan,prodaja,Beograd,Zemun,103,1932,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,3,1,160000
+112638,stan,prodaja,Beograd,Novi Beograd,70,NULL,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,3,2,160000
+112555,stan,prodaja,Beograd,Novi Beograd,72,1980,renovirano,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,167000
+112500,stan,prodaja,Beograd,Savski Venac,55,NULL,novo,NULL,16,centralno,polunamešteno,1,1,NULL,uknjiženo,2,NULL,172000
+112423,stan,prodaja,Beograd,Kosančićev Venac,58,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,179000
+112421,stan,prodaja,Beograd,Neimar,85,2006,novo,NULL,2,centralno,prazno,1,1,NULL,uknjiženo,4,3,190000
+112409,stan,prodaja,Beograd,Savski Venac,55,2019,novo,NULL,12,centralno,namešteno,1,1,NULL,uknjiženo,2,NULL,185000
+112355,stan,prodaja,Beograd,Beograd centar,115,NULL,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,4,1,199000
+112349,stan,prodaja,Beograd,Palilula opština,94,NULL,NULL,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,4,2,179900
+112336,stan,prodaja,Beograd,Savski Venac,51,2020,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,156888
+112335,stan,prodaja,Beograd,Zvezdara opština,105,NULL,novo,NULL,4,etažno,NULL,1,1,NULL,uknjiženo,3,2,159000
+112333,stan,prodaja,Beograd,Savski Venac,56,2020,NULL,NULL,21,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,196888
+112332,stan,prodaja,Beograd,Savski Venac,52,2020,NULL,NULL,9,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL,153888
+112331,stan,prodaja,Beograd,Savski Venac,55,2020,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,170888
+112329,stan,prodaja,Beograd,Savski Venac,55,2020,NULL,NULL,23,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,186888
+112326,stan,prodaja,Beograd,Savski Venac,54,2020,NULL,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,155888
+112325,stan,prodaja,Beograd,Savski Venac,55,2020,NULL,NULL,10,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,165888
+112315,stan,prodaja,Beograd,Zemun,100,2020,NULL,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,3.5,1,180000
+112305,stan,prodaja,Beograd,Voždovac opština,90,2013,NULL,NULL,4,centralno,NULL,1,1,NULL,uknjiženo,3,1,170000
+112279,stan,prodaja,Beograd,Zemun,85,2020,NULL,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,3,1,153000
+112249,stan,prodaja,Beograd,Novi Beograd,60,NULL,novo,NULL,3,centralno,prazno,1,1,NULL,uknjiženo,2,NULL,175000
+112202,stan,prodaja,Beograd,Zvezdara opština,100,NULL,novo,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,4,NULL,194900
+112197,stan,prodaja,Beograd,Beograd,96,1941,renovirano,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,185000
+112192,stan,prodaja,Beograd,Zvezdara opština,104,NULL,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL,180000
+112176,stan,prodaja,Beograd,Palilula opština,84,NULL,NULL,NULL,5,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,159000
+112160,stan,prodaja,Beograd,Stari Grad opština,54,NULL,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,188000
+112152,stan,prodaja,Beograd,Zvezdara opština,97,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,3,NULL,200000
+112136,stan,prodaja,Beograd,Beograd,85,NULL,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,185000
+112130,stan,prodaja,Beograd,Palilula opština,92,NULL,renovirano,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL,180000
+112128,stan,prodaja,Beograd,Voždovac opština,120,NULL,novo,NULL,4,etažno,NULL,1,NULL,NULL,uknjiženo,5,NULL,198000
+112126,stan,prodaja,Beograd,Čukarica,85,NULL,renovirano,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,150000
+112112,stan,prodaja,Beograd,Zemun,113,NULL,novo,NULL,3,etažno,prazno,NULL,1,NULL,uknjiženo,4,1,150000
+112082,stan,prodaja,Beograd,Vračar,78,NULL,NULL,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,2.5,NULL,155000
+112080,stan,prodaja,Beograd,Voždovac,59,NULL,novo,NULL,1,centralno,prazno,1,1,NULL,uknjiženo,2,1,150000
+112070,stan,prodaja,Beograd,Beograd,78,NULL,NULL,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL,163800
+112028,stan,prodaja,Beograd,Zemun,100,NULL,novo,NULL,5,podno,prazno,1,1,NULL,uknjiženo,3.5,NULL,189000
+112025,stan,prodaja,Beograd,Zemun,85,NULL,novo,NULL,5,podno,prazno,1,1,NULL,uknjiženo,3.5,NULL,160650
+112014,stan,prodaja,Beograd,Novi Beograd,105,NULL,renovirano,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL,199900
+112010,stan,prodaja,Beograd,Novi Beograd,70,NULL,novo,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL,154000
+111905,stan,prodaja,Beograd,Palilula,51,2018,novo,NULL,4,centralno,prazno,1,1,NULL,uknjiženo,2,NULL,177000
+111861,stan,prodaja,Beograd,Zvezdara opština,80,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,179000
+111856,stan,prodaja,Beograd,Beograd,55,2019,novo,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,190000
+111836,stan,prodaja,Beograd,Zvezdara opština,135,2007,renovirano,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,3,1,170000
+111793,stan,prodaja,Beograd,Novi Beograd,76,NULL,renovirano,NULL,6,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,155000
+111786,stan,prodaja,Beograd,Palilula opština,99,2019,novo,NULL,5,centralno,namešteno,1,1,NULL,NULL,3,NULL,198000
+111753,stan,prodaja,Beograd,Novi Beograd,81,2006,NULL,NULL,7,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,185000
+111752,stan,prodaja,Beograd,Vračar,63,NULL,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,161000
+111745,stan,prodaja,Beograd,Stari Grad opština,85,2007,renovirano,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,3,NULL,155000
+111731,stan,prodaja,Beograd,Savski Venac,54,NULL,novo,NULL,4,centralno,prazno,1,1,NULL,uknjiženo,2,NULL,154888
+111724,stan,prodaja,Beograd,Zvezdara opština,77,2020,novo,NULL,1,centralno,prazno,1,NULL,NULL,NULL,3,2,175000
+111706,stan,prodaja,Beograd,Palilula,66,NULL,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,NULL,161000
+111678,stan,prodaja,Beograd,Zvezdara opština,82,NULL,NULL,NULL,4,NULL,namešteno,NULL,NULL,NULL,NULL,3,1,180400
+114162,stan,prodaja,Beograd,Novi Beograd,94,NULL,u izgradnji,NULL,14,centralno,prazno,1,NULL,NULL,NULL,3,1,328900
+114157,stan,prodaja,Beograd,Beograd,124,NULL,novo,NULL,3,etažno,NULL,NULL,1,NULL,uknjiženo,4,NULL,205000
+114149,stan,prodaja,Beograd,Neimar,104,1934,renovirano,NULL,4,na struju,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,240000
+114138,stan,prodaja,Beograd,Beograd centar,94,NULL,uobičajeno,NULL,1,etažno,prazno,1,NULL,NULL,uknjiženo,4,1,240000
+114113,stan,prodaja,Beograd,Vračar,99,1970,uobičajeno,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1,265000
+114035,stan,prodaja,Beograd,Novi Beograd,120,NULL,uobičajeno,NULL,10,centralno,prazno,NULL,NULL,NULL,NULL,3,1,280000
+113765,stan,prodaja,Beograd,Savski Venac,126,2006,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,uknjiženo,4,NULL,225000
+113761,stan,prodaja,Beograd,Vračar,99,NULL,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,3,NULL,265000
+113650,stan,prodaja,Beograd,Savski Venac,103,2016,uobičajeno,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,3,2,227000
+113616,stan,prodaja,Beograd,Beograd,128,2019,novo,NULL,2,na gas,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,295000
+113122,stan,prodaja,Beograd,Zemun,135,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL,400445
+113098,stan,prodaja,Beograd,Zemun,95,2020,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,4,NULL,285000
+113088,stan,prodaja,Beograd,Zemun,144,2020,NULL,NULL,3,etažno,NULL,1,NULL,NULL,uknjiženo,5,NULL,427293
+112871,stan,prodaja,Beograd,Savski Venac,207,2019,novo,NULL,2,na gas,polunamešteno,NULL,1,NULL,uknjiženo,5,3,440000
+112750,stan,prodaja,Beograd,Vračar,87,2006,novo,NULL,4,centralno,namešteno,1,NULL,NULL,uknjiženo,3,NULL,210000
+112648,stan,prodaja,Beograd,Savski Venac,135,NULL,NULL,NULL,13,NULL,NULL,NULL,1,NULL,uknjiženo,3,NULL,611888
+112646,stan,prodaja,Beograd,Savski Venac,77,NULL,NULL,NULL,16,NULL,NULL,NULL,1,NULL,uknjiženo,2,NULL,214888
+112644,stan,prodaja,Beograd,Savski Venac,110,NULL,novo,NULL,15,NULL,NULL,NULL,1,NULL,NULL,2,NULL,358888
+112623,stan,prodaja,Beograd,Stari Grad opština,137,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,5,5,500000
+112597,stan,prodaja,Beograd,Beograd,94,NULL,NULL,NULL,2,centralno,NULL,NULL,NULL,NULL,uknjiženo,4,NULL,260000
+112519,stan,prodaja,Beograd,Voždovac opština,112,2019,novo,NULL,1,NULL,NULL,1,1,NULL,uknjiženo,4,NULL,325000
+112499,stan,prodaja,Beograd,Blok 11,86,NULL,novo,NULL,2,centralno,prazno,1,1,NULL,uknjiženo,3,NULL,245557
+112424,stan,prodaja,Beograd,Vračar,86,NULL,uobičajeno,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,3,1,280000
+112357,stan,prodaja,Beograd,Čukarica,113,2020,novo,NULL,3,etažno,NULL,1,1,NULL,uknjiženo,3.5,1,260000
+112352,stan,prodaja,Beograd,Voždovac opština,115,NULL,uobičajeno,NULL,7,centralno,prazno,1,NULL,NULL,uknjiženo,5,2,207000
+112328,stan,prodaja,Beograd,Savski Venac,88,2020,NULL,NULL,10,centralno,NULL,1,NULL,NULL,uknjiženo,3,1,243888
+112327,stan,prodaja,Beograd,Savski Venac,139,2020,NULL,NULL,15,centralno,NULL,1,NULL,NULL,uknjiženo,4,3,661888
+112324,stan,prodaja,Beograd,Savski Venac,163,2021,NULL,NULL,30,centralno,NULL,1,NULL,NULL,uknjiženo,4,2,1433888
+112313,stan,prodaja,Beograd,Zemun,114,2020,NULL,NULL,5,etažno,NULL,1,1,NULL,uknjiženo,4,1,205200
+112312,stan,prodaja,Beograd,Dorćol,134,NULL,NULL,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,4,1,309000
+112311,stan,prodaja,Beograd,Neimar,81,NULL,novo,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,3,2,215000
+112309,stan,prodaja,Beograd,Beograd centar,96,NULL,NULL,NULL,3,TA peć,NULL,NULL,NULL,NULL,uknjiženo,3,1,240000
+112303,stan,prodaja,Beograd,Čukarica,102,NULL,NULL,NULL,2,centralno,NULL,1,1,NULL,uknjiženo,4,2,240000
+112209,stan,prodaja,Beograd,Vračar,118,NULL,novo,NULL,4,NULL,NULL,1,1,NULL,NULL,4,NULL,350500
+112203,stan,prodaja,Beograd,Beograd,87,NULL,renovirano,NULL,4,etažno,NULL,1,NULL,NULL,uknjiženo,4,NULL,261000
+112188,stan,prodaja,Beograd,Savski Venac,200,NULL,novo,NULL,2,etažno,NULL,NULL,1,NULL,uknjiženo,6,NULL,419990
+112186,stan,prodaja,Beograd,Neimar,138,NULL,NULL,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,5,NULL,319000
+112175,stan,prodaja,Beograd,Dorćol,99,1936,NULL,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,5,NULL,229000
+112173,stan,prodaja,Beograd,Voždovac opština,228,NULL,novo,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,7,NULL,380000
+112163,stan,prodaja,Beograd,Stari Grad opština,120,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,NULL,330000
+112162,stan,prodaja,Beograd,Vračar,96,NULL,novo,NULL,3,centralno,NULL,1,NULL,NULL,NULL,4,NULL,219000
+112161,stan,prodaja,Beograd,Vračar,128,NULL,renovirano,NULL,3,centralno,NULL,NULL,1,NULL,uknjiženo,3.5,NULL,333000
+112156,stan,prodaja,Beograd,Vračar,108,NULL,renovirano,NULL,2,etažno,NULL,NULL,1,NULL,uknjiženo,3,NULL,319000
+112154,stan,prodaja,Beograd,Beograd centar,155,NULL,NULL,NULL,2,centralno,NULL,1,NULL,NULL,uknjiženo,5,NULL,490000
+112127,stan,prodaja,Beograd,Stari Grad opština,105,NULL,renovirano,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,3,NULL,329000
+112109,stan,prodaja,Beograd,Novi Beograd,126,NULL,novo,NULL,5,centralno,prazno,1,1,NULL,uknjiženo,4,3,360000
+112064,stan,prodaja,Beograd,Vračar,115,2007,NULL,NULL,5,centralno,NULL,1,1,NULL,uknjiženo,3,1,219000
+112059,stan,prodaja,Beograd,Stari Grad opština,105,1976,NULL,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,4,NULL,249000
+112052,stan,prodaja,Beograd,Stari Grad opština,80,NULL,NULL,NULL,4,etažno,prazno,1,NULL,NULL,uknjiženo,3,NULL,265000
+112050,stan,prodaja,Beograd,Novi Beograd,147,1998,uobičajeno,NULL,6,centralno,prazno,1,NULL,NULL,uknjiženo,3,2,350000
+112011,stan,prodaja,Beograd,Voždovac opština,140,NULL,novo,NULL,5,centralno,namešteno,1,1,NULL,uknjiženo,4,NULL,294000
+111930,stan,prodaja,Beograd,Čukarica,152,2010,novo,NULL,1,centralno,prazno,NULL,NULL,NULL,uknjiženo,4,1,208000
+111908,stan,prodaja,Beograd,Neimar,75,NULL,novo,NULL,1,centralno,namešteno,1,NULL,NULL,uknjiženo,2,NULL,320000
+111907,stan,prodaja,Beograd,Stari Grad opština,102,2020,novo,NULL,7,centralno,prazno,1,1,NULL,nije uknjiženo,2,NULL,286000
+111862,stan,prodaja,Beograd,Vračar,330,NULL,NULL,NULL,1,na struju,NULL,NULL,NULL,NULL,uknjiženo,6,NULL,790000
+111846,stan,prodaja,Beograd,Novi Beograd,170,NULL,renovirano,NULL,9,centralno,NULL,1,NULL,NULL,uknjiženo,4,NULL,245000
+111838,stan,prodaja,Beograd,Savski Venac,150,2005,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,2,320000
+111835,stan,prodaja,Beograd,Zvezdara opština,195,2007,renovirano,NULL,1,na struju,NULL,NULL,1,NULL,uknjiženo,4,2,340000
+111832,stan,prodaja,Beograd,Savski Venac,240,2005,NULL,NULL,NULL,na gas,NULL,NULL,1,NULL,uknjiženo,5,3,750000
+111830,stan,prodaja,Beograd,Stari Grad opština,195,NULL,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,6,NULL,460000
+111806,stan,prodaja,Beograd,Stari Grad opština,105,NULL,renovirano,NULL,3,centralno,prazno,NULL,NULL,NULL,uknjiženo,4,1,330000
+111794,stan,prodaja,Beograd,Vračar,115,NULL,renovirano,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,4,NULL,300000
+111790,stan,prodaja,Beograd,Beograd,125,NULL,renovirano,NULL,4,etažno,NULL,1,NULL,NULL,uknjiženo,5,NULL,449000
+111788,stan,prodaja,Beograd,Beograd,105,NULL,renovirano,NULL,5,NULL,NULL,1,NULL,NULL,uknjiženo,5,NULL,369000
+111777,stan,prodaja,Beograd,Beograd,100,2007,novo,NULL,4,centralno,prazno,1,1,NULL,uknjiženo,3,NULL,225000
+111772,stan,prodaja,Beograd,Savski Venac,74,2011,novo,NULL,3,etažno,prazno,1,NULL,NULL,uknjiženo,3,2,208000
+111763,stan,prodaja,Beograd,Dorćol,110,1930,uobičajeno,NULL,3,kaljeva peć,prazno,NULL,NULL,NULL,uknjiženo,4,2,239000
+111761,stan,prodaja,Beograd,Stari Grad opština,95,1923,uobičajeno,NULL,3,centralno,prazno,1,NULL,NULL,uknjiženo,3,1,239000
+111733,stan,prodaja,Beograd,Stari Grad opština,84,NULL,uobičajeno,NULL,1,kaljeva peć,prazno,NULL,NULL,NULL,uknjiženo,3,NULL,319900
+111730,stan,prodaja,Beograd,Stari Grad opština,110,1963,uobičajeno,NULL,3,centralno,polunamešteno,1,NULL,NULL,uknjiženo,4.5,1,215000
+111729,stan,prodaja,Beograd,Voždovac opština,138,NULL,novo,NULL,2,na gas,prazno,NULL,NULL,NULL,uknjiženo,3,NULL,306000
+111728,stan,prodaja,Beograd,Savski Venac,90,NULL,novo,NULL,3,centralno,polunamešteno,NULL,NULL,NULL,uknjiženo,3,NULL,214500
+111722,stan,prodaja,Beograd,Vračar,110,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,4,2,320000
+114034,stan,prodaja,Beograd,Vidikovac,42,NULL,uobičajeno,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1,44000
+113802,stan,prodaja,Beograd,Čukarica,23,NULL,uobičajeno,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,1,1,44500
+113688,stan,prodaja,Beograd,Mladenovac opština,65,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,1,45500
+112749,stan,prodaja,Beograd,Čukarica,35,NULL,uobičajeno,NULL,6,etažno,namešteno,NULL,NULL,NULL,nije uknjiženo,1.5,NULL,35000
+112698,stan,prodaja,Beograd,Zemun,44,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1,48400
+112697,stan,prodaja,Beograd,Zemun,44,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1,48400
+112691,stan,prodaja,Beograd,Zemun,44,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,1.5,1,48400
+112622,stan,prodaja,Beograd,Zemun,36,NULL,uobičajeno,NULL,13,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,1,46000
+112343,stan,prodaja,Beograd,Palilula opština,54,NULL,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,NULL,2,1,19500
+112230,stan,prodaja,Beograd,Palilula opština,38,NULL,renovirano,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,1,NULL,15500
+112205,stan,prodaja,Beograd,Palilula opština,16,NULL,renovirano,NULL,3,na struju,NULL,NULL,NULL,NULL,uknjiženo,1,NULL,9500
+112201,stan,prodaja,Beograd,Palilula opština,51,NULL,renovirano,NULL,2,na struju,NULL,NULL,1,NULL,uknjiženo,2,NULL,33000
+112183,stan,prodaja,Beograd,Grocka opština,40,NULL,novo,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL,32800
+112158,stan,prodaja,Beograd,Palilula opština,36,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,1.5,NULL,48600
+112129,stan,prodaja,Beograd,Palilula opština,51,NULL,NULL,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,2,NULL,17500
+112030,stan,prodaja,Beograd,Palilula opština,54,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,NULL,2,1,42900
+111932,stan,prodaja,Beograd,Donji Dorćol,33,NULL,uobičajeno,NULL,4,na struju,prazno,1,NULL,NULL,uknjiženo,1.5,1,40000
+111886,stan,prodaja,Beograd,Zvezdara opština,56,NULL,NULL,NULL,3,centralno,NULL,NULL,NULL,NULL,nije uknjiženo,2.5,NULL,1650
+111860,stan,prodaja,Beograd,Zvezdara opština,59,2019,novo,NULL,2,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,1650
+111704,stan,prodaja,Beograd,Zvezdara opština,18,2017,NULL,NULL,4,na struju,NULL,1,NULL,NULL,uknjiženo,0.5,NULL,35700
+111672,stan,prodaja,Beograd,Zemun,40,NULL,novo,NULL,2,podno,NULL,NULL,NULL,NULL,nije uknjiženo,1.5,NULL,46000
+111667,stan,prodaja,Beograd,Voždovac opština,24,NULL,uobičajeno,NULL,5,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,1,NULL,28000
+111628,stan,prodaja,Beograd,Palilula opština,39,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,2,1,43000
+111393,stan,prodaja,Beograd,Vračar,46,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,2,NULL,1500
+111386,stan,prodaja,Beograd,Rakovica opština,28,NULL,novo,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,0.5,NULL,40000
+111385,stan,prodaja,Beograd,Palilula opština,23,NULL,uobičajeno,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,1,NULL,36000
+111374,stan,prodaja,Beograd,Voždovac opština,47,NULL,novo,NULL,3,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL,42500
+111333,stan,prodaja,Beograd,Zvezdara opština,26,NULL,NULL,NULL,4,centralno,NULL,NULL,NULL,NULL,uknjiženo,1,1,36000
+111259,stan,prodaja,Beograd,Čukarica,61,NULL,NULL,NULL,NULL,na gas,prazno,NULL,NULL,NULL,uknjiženo,1.5,NULL,41500
+111254,stan,prodaja,Beograd,Rakovica opština,44,NULL,potrebno renoviranje,NULL,4,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL,43000
+111098,stan,prodaja,Beograd,Zvezdara opština,25,2012,NULL,NULL,4,etažno,NULL,NULL,NULL,NULL,uknjiženo,0.5,NULL,38000
+111076,stan,prodaja,Beograd,Palilula opština,31,1978,uobičajeno,NULL,1,na struju,NULL,NULL,NULL,NULL,NULL,1,NULL,30000
+110817,stan,prodaja,Beograd,Palilula opština,46,1972,uobičajeno,NULL,1,etažno,prazno,NULL,NULL,NULL,NULL,1,1,42000
+109434,stan,prodaja,Beograd,Grocka opština,40,NULL,novo,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL,32800
+109419,stan,prodaja,Beograd,Palilula opština,16,NULL,renovirano,NULL,3,na struju,NULL,NULL,NULL,NULL,uknjiženo,1,NULL,9500
+109367,stan,prodaja,Beograd,Palilula opština,36,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,NULL,1.5,NULL,48600
+114241,stan,prodaja,Beograd,Voždovac opština,34,NULL,novo,NULL,7,etažno,NULL,1,1,NULL,NULL,2,NULL,75720
+114204,stan,prodaja,Beograd,Zemun,45,NULL,NULL,NULL,2,etažno,NULL,1,NULL,NULL,uknjiženo,1.5,1,81000
+114161,stan,prodaja,Beograd,Zvezdara opština,43,2020,u izgradnji,NULL,1,centralno,prazno,1,NULL,NULL,u procesu uknjižavanja,1.5,1,83000
+114158,stan,prodaja,Beograd,Novi Beograd,36,NULL,NULL,NULL,4,centralno,NULL,NULL,NULL,NULL,uknjiženo,1,1,72000
+114112,stan,prodaja,Beograd,Zvezdara opština,34,1937,NULL,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,65000
+114111,stan,prodaja,Beograd,Zvezdara opština,63,NULL,NULL,NULL,13,centralno,NULL,NULL,NULL,NULL,uknjiženo,2,1,75600
+114110,stan,prodaja,Beograd,Novi Beograd,55,NULL,novo,NULL,2,NULL,NULL,NULL,NULL,NULL,uknjiženo,2,1,61500
+114109,stan,prodaja,Beograd,Voždovac opština,79,1987,NULL,NULL,7,centralno,namešteno,1,NULL,NULL,uknjiženo,3.5,NULL,86900
+114106,stan,prodaja,Beograd,Obrenovac opština,112,NULL,novo,NULL,4,centralno,prazno,NULL,NULL,NULL,uknjiženo,5,NULL,98000
+114105,stan,prodaja,Beograd,Zvezdara opština,64,NULL,potrebno renoviranje,NULL,4,NULL,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,93000
+114041,stan,prodaja,Beograd,Zemun,66,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,72600
+114040,stan,prodaja,Beograd,Zemun,66,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,72600
+114039,stan,prodaja,Beograd,Zemun,66,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,72600
+114037,stan,prodaja,Beograd,Zemun,53,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,58300
+114036,stan,prodaja,Beograd,Zemun,62,2020,novo,NULL,2,etažno,prazno,NULL,NULL,NULL,NULL,2,1,81840
+114032,stan,prodaja,Beograd,Zemun,38,NULL,uobičajeno,NULL,2,NULL,prazno,NULL,NULL,NULL,NULL,1.5,1,53000
+114031,stan,prodaja,Beograd,Vidikovac,60,2019,novo,NULL,5,etažno,prazno,1,NULL,NULL,uknjiženo,2.5,1,68000
+114023,stan,prodaja,Beograd,Zemun,96,NULL,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,NULL,3,1,72000
+114021,stan,prodaja,Beograd,Zvezdara opština,50,NULL,novo,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,1,1,96000
+114020,stan,prodaja,Beograd,Zvezdara opština,54,NULL,novo,NULL,5,etažno,polunamešteno,1,NULL,NULL,uknjiženo,2.5,NULL,63500
+114015,stan,prodaja,Beograd,Stari Grad opština,24,NULL,renovirano,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,1,NULL,78000
+113832,stan,prodaja,Beograd,Voždovac,42,NULL,NULL,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,69500
+113818,stan,prodaja,Beograd,Zvezdara opština,51,NULL,renovirano,NULL,1,na struju,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,96000
+113783,stan,prodaja,Beograd,Palilula opština,60,NULL,NULL,NULL,1,centralno,prazno,NULL,NULL,NULL,NULL,3,NULL,78000
+113675,stan,prodaja,Beograd,Palilula opština,52,NULL,luksuzno,NULL,3,norveški radijatori,NULL,NULL,NULL,NULL,NULL,2.5,NULL,50000
+113618,stan,prodaja,Beograd,Zvezdara opština,59,1989,renovirano,NULL,4,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,88000
+113143,stan,prodaja,Beograd,Zemun,36,2020,NULL,NULL,3,etažno,NULL,NULL,NULL,NULL,uknjiženo,0.5,1,75407
+113073,stan,prodaja,Beograd,Palilula opština,44,NULL,NULL,NULL,4,TA peć,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,53000
+113068,stan,prodaja,Beograd,Palilula opština,51,NULL,NULL,NULL,4,TA peć,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,55000
+113035,stan,prodaja,Beograd,Savski Venac,65,2006,uobičajeno,NULL,4,etažno,prazno,NULL,NULL,NULL,uknjiženo,3,1,93500
+112920,stan,prodaja,Beograd,Voždovac opština,31,2018,NULL,NULL,5,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,72000
+112896,stan,prodaja,Beograd,Mladenovac opština,87,NULL,NULL,NULL,3,na gas,NULL,1,NULL,NULL,uknjiženo,4,1,62000
+112893,stan,prodaja,Beograd,Zemun,45,NULL,uobičajeno,NULL,4,etažno,prazno,NULL,NULL,NULL,uknjiženo,1.5,1,64900
+112884,stan,prodaja,Beograd,Bežanijska kosa,65,2000,potrebno renoviranje,NULL,NULL,NULL,NULL,NULL,NULL,NULL,u procesu uknjižavanja,2,1,100000
+112883,stan,prodaja,Beograd,Vračar,38,NULL,NULL,NULL,3,na struju,namešteno,NULL,NULL,NULL,uknjiženo,2,NULL,85000
+112870,stan,prodaja,Beograd,Zvezdara opština,41,NULL,uobičajeno,NULL,6,centralno,polunamešteno,1,NULL,NULL,uknjiženo,1.5,NULL,53000
+112847,stan,prodaja,Beograd,Zemun opština,90,1980,renovirano,NULL,1,NULL,NULL,NULL,NULL,NULL,uknjiženo,4,1,61000
+112753,stan,prodaja,Beograd,Voždovac opština,38,2021,u izgradnji,NULL,3,na gas,namešteno,1,1,NULL,nije uknjiženo,2,NULL,83200
+112712,stan,prodaja,Beograd,Zemun,65,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,71500
+112696,stan,prodaja,Beograd,Zemun,48,2020,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,52800
+112695,stan,prodaja,Beograd,Zemun,68,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,74800
+112694,stan,prodaja,Beograd,Zemun,48,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,52800
+112693,stan,prodaja,Beograd,Zemun,68,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,74800
+112692,stan,prodaja,Beograd,Zemun,68,2020,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,74800
+112689,stan,prodaja,Beograd,Zemun,53,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,58300
+112688,stan,prodaja,Beograd,Zemun,65,2020,novo,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,3.5,1,71500
+112678,stan,prodaja,Beograd,Zemun,57,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,86000
+112675,stan,prodaja,Beograd,Rakovica opština,56,1993,uobičajeno,NULL,10,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,60000
+112673,stan,prodaja,Beograd,Vračar,28,1928,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,uknjiženo,1,1,73000
+112671,stan,prodaja,Beograd,Čukarica,41,NULL,uobičajeno,NULL,4,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,1,64500
+112670,stan,prodaja,Beograd,Čukarica,54,NULL,uobičajeno,NULL,4,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,54000
+112669,stan,prodaja,Beograd,Zemun,67,2015,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,uknjiženo,2.5,1,87000
+112667,stan,prodaja,Beograd,Čukarica,88,NULL,uobičajeno,NULL,17,centralno,prazno,1,NULL,NULL,uknjiženo,2.5,1,88000
+112666,stan,prodaja,Beograd,Zemun,54,2018,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,54000
+112665,stan,prodaja,Beograd,Zemun,47,1990,uobičajeno,NULL,1,na struju,prazno,NULL,NULL,NULL,NULL,2.5,1,65000
+112664,stan,prodaja,Beograd,Zemun,53,2019,novo,NULL,3,etažno,prazno,NULL,NULL,NULL,NULL,2.5,1,58300
+112651,stan,prodaja,Beograd,Rakovica opština,50,NULL,NULL,NULL,2,etažno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL,72000
+112599,stan,prodaja,Beograd,Palilula opština,59,NULL,NULL,NULL,4,na struju,NULL,NULL,NULL,NULL,nije uknjiženo,3,NULL,79650
+112593,stan,prodaja,Beograd,Zvezdara opština,46,2009,novo,NULL,1,NULL,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,89911
+112592,stan,prodaja,Beograd,Medaković,82,2000,NULL,NULL,2,etažno,NULL,NULL,NULL,NULL,u procesu uknjižavanja,2.5,1,76000
+112556,stan,prodaja,Beograd,Čukarica,36,1990,renovirano,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL,73440
+112541,stan,prodaja,Beograd,Karaburma,59,2008,uobičajeno,NULL,4,TA peć,polunamešteno,NULL,NULL,NULL,uknjiženo,3,1,79650
+112472,stan,prodaja,Beograd,Zvezdara opština,71,1980,uobičajeno,NULL,1,centralno,NULL,1,NULL,NULL,uknjiženo,3.5,NULL,84900
+112428,stan,prodaja,Beograd,Voždovac,65,1992,uobičajeno,NULL,11,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,90000
+112417,stan,prodaja,Beograd,Čukarica,55,2008,novo,NULL,1,na gas,prazno,NULL,NULL,NULL,uknjiženo,3,1,83000
+112356,stan,prodaja,Beograd,Vračar,31,NULL,renovirano,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,1,1,85000
+112353,stan,prodaja,Beograd,Palilula opština,52,NULL,NULL,NULL,1,etažno,NULL,1,NULL,NULL,uknjiženo,2,1,89400
+112350,stan,prodaja,Beograd,Zemun opština,65,NULL,renovirano,NULL,10,centralno,NULL,1,NULL,NULL,uknjiženo,2,1,79500
+112348,stan,prodaja,Beograd,Voždovac opština,33,NULL,uobičajeno,NULL,3,centralno,prazno,NULL,NULL,NULL,uknjiženo,1,1,67900
+112347,stan,prodaja,Beograd,Bežanijski Blokovi,45,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,1,1,77000
+112344,stan,prodaja,Beograd,Novi Beograd,30,NULL,uobičajeno,NULL,2,centralno,prazno,1,NULL,NULL,uknjiženo,1,1,67000
+112337,stan,prodaja,Beograd,Vračar,37,NULL,NULL,NULL,1,na struju,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,98500
+112314,stan,prodaja,Beograd,Voždovac opština,56,NULL,potrebno renoviranje,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,92500
+112310,stan,prodaja,Beograd,Stari Grad opština,53,NULL,NULL,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,1,90000
+112307,stan,prodaja,Beograd,Zvezdara opština,61,NULL,novo,NULL,5,etažno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,63500
+112299,stan,prodaja,Beograd,Zemun,53,NULL,NULL,NULL,2,etažno,NULL,1,1,NULL,uknjiženo,2,1,95400
+112296,stan,prodaja,Beograd,Zemun,51,2020,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,2.5,1,91800
+112208,stan,prodaja,Beograd,Zvezdara opština,52,NULL,novo,NULL,4,etažno,NULL,NULL,NULL,NULL,uknjiženo,2.5,NULL,72800
+112207,stan,prodaja,Beograd,Palilula opština,57,NULL,novo,NULL,4,norveški radijatori,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,55000
+112194,stan,prodaja,Beograd,Zvezdara opština,26,NULL,novo,NULL,2,etažno,NULL,1,NULL,NULL,NULL,1.5,NULL,50000
+112182,stan,prodaja,Beograd,Zemun,51,NULL,novo,NULL,2,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,91800
+112181,stan,prodaja,Beograd,Zvezdara opština,43,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,75000
+112180,stan,prodaja,Beograd,Zvezdara opština,45,NULL,novo,NULL,4,etažno,NULL,1,NULL,NULL,NULL,2,NULL,84000
+112178,stan,prodaja,Beograd,Stari Grad opština,38,NULL,uobičajeno,NULL,4,etažno,NULL,1,1,NULL,uknjiženo,1,NULL,85500
+112177,stan,prodaja,Beograd,Zvezdara opština,53,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,NULL,2,NULL,90000
+112174,stan,prodaja,Beograd,Palilula opština,86,NULL,uobičajeno,NULL,3,centralno,NULL,NULL,NULL,NULL,uknjiženo,3.5,NULL,80000
+112153,stan,prodaja,Beograd,Voždovac opština,56,NULL,novo,NULL,1,etažno,NULL,NULL,NULL,NULL,NULL,2.5,NULL,94000
+112134,stan,prodaja,Beograd,Mirijevo,78,NULL,NULL,NULL,8,centralno,NULL,1,NULL,NULL,u procesu uknjižavanja,3,NULL,89700
+112132,stan,prodaja,Beograd,Bežanijski Blokovi,65,NULL,renovirano,NULL,14,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,95000
+112057,stan,prodaja,Beograd,Novi Beograd,36,1975,NULL,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,NULL,84000
+112027,stan,prodaja,Beograd,Čukarica,57,1970,NULL,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,2,NULL,98000
+112024,stan,prodaja,Beograd,Zemun,45,NULL,novo,NULL,2,podno,prazno,1,1,NULL,uknjiženo,1.5,NULL,85050
+111937,stan,prodaja,Beograd,Voždovac opština,42,2010,renovirano,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,1.5,NULL,58000
+111936,stan,prodaja,Beograd,Dorćol,27,1970,renovirano,NULL,5,centralno,namešteno,1,NULL,NULL,uknjiženo,1,NULL,82000
+111934,stan,prodaja,Beograd,Zemun,55,1980,renovirano,NULL,4,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,69900
+111933,stan,prodaja,Beograd,Palilula opština,39,NULL,uobičajeno,NULL,NULL,centralno,prazno,NULL,NULL,NULL,uknjiženo,1,1,75000
+111931,stan,prodaja,Beograd,Zvezdara opština,40,NULL,novo,NULL,1,etažno,prazno,NULL,NULL,NULL,uknjiženo,2,1,68000
+111929,stan,prodaja,Beograd,Novi Beograd,56,1970,uobičajeno,NULL,11,centralno,prazno,1,NULL,NULL,uknjiženo,2,1,89000
+111917,stan,prodaja,Beograd,Čukarica opština,52,NULL,novo,NULL,1,na gas,prazno,NULL,NULL,NULL,uknjiženo,2,1,59900
+111911,stan,prodaja,Beograd,Bežanijski Blokovi,39,NULL,uobičajeno,NULL,1,centralno,prazno,1,NULL,NULL,uknjiženo,1,1,77000
+111910,stan,prodaja,Beograd,Zemun opština,43,NULL,uobičajeno,NULL,2,centralno,prazno,NULL,NULL,NULL,uknjiženo,2,NULL,54000
+111909,stan,prodaja,Beograd,Zemun,40,NULL,renovirano,NULL,2,etažno,prazno,NULL,NULL,NULL,uknjiženo,1.5,NULL,65000
+111906,stan,prodaja,Beograd,Voždovac opština,72,1975,NULL,NULL,5,centralno,prazno,1,NULL,NULL,uknjiženo,1.5,NULL,68000
+111885,stan,prodaja,Beograd,Zemun,37,2015,NULL,NULL,1,podno,NULL,NULL,NULL,NULL,uknjiženo,1.5,1,69000
+111883,stan,prodaja,Beograd,Zemun,64,1962,NULL,NULL,4,etažno,prazno,1,NULL,NULL,uknjiženo,2,NULL,89500
+111863,stan,prodaja,Beograd,Čukarica,93,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,3,NULL,100000
+111855,stan,prodaja,Beograd,Novi Beograd,45,NULL,NULL,NULL,1,centralno,NULL,NULL,NULL,NULL,uknjiženo,1,NULL,84900
+111850,stan,prodaja,Beograd,Zvezdara opština,65,1985,renovirano,NULL,11,centralno,NULL,1,NULL,NULL,uknjiženo,4,NULL,99999
+111844,stan,prodaja,Beograd,Zvezdara opština,60,1985,NULL,NULL,5,centralno,NULL,1,NULL,NULL,uknjiženo,2,NULL,75000
+111837,stan,prodaja,Beograd,Stari Grad opština,35,NULL,uobičajeno,NULL,3,centralno,NULL,1,NULL,NULL,uknjiženo,1,1,90000
+111833,stan,prodaja,Beograd,Grocka opština,44,NULL,renovirano,NULL,3,etažno,polunamešteno,NULL,NULL,NULL,uknjiženo,2.5,1,50000
+111804,stan,prodaja,Beograd,Čukarica,77,NULL,NULL,NULL,7,NULL,NULL,NULL,NULL,NULL,uknjiženo,2.5,1,83000
+111762,stan,prodaja,Beograd,Palilula opština,56,1980,uobičajeno,NULL,2,na struju,prazno,NULL,NULL,NULL,uknjiženo,2,1,65000
+111756,stan,prodaja,Beograd,Beograd centar,50,1938,NULL,NULL,2,na struju,NULL,NULL,NULL,NULL,uknjiženo,2,NULL,89900
+111755,stan,prodaja,Beograd,Bežanijski Blokovi,55,NULL,uobičajeno,NULL,13,centralno,NULL,1,NULL,NULL,uknjiženo,2.5,NULL,86000
+111754,stan,prodaja,Beograd,Zvezdara opština,30,NULL,NULL,NULL,2,centralno,NULL,NULL,NULL,NULL,NULL,1,NULL,57000
