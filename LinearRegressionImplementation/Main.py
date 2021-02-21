@@ -1,6 +1,8 @@
 from LinearRegressionImp import LinearRegressionImp
 from Scaling import ParameterScaling
 import csv
+import math
+
 
 LinearRegressionImp.init_parameters()
 print("Estimated initial parameters:")
@@ -21,6 +23,10 @@ print("W_room_count: " + str(LinearRegressionImp.w_room_count))
 print("W_floor: " + str(LinearRegressionImp.w_floor))
 print("W_year_built: " + str(LinearRegressionImp.w_year_built))
 
+m = 0
+RMSE = 0
+MAE = 0
+
 with open("Data/test_dataset_scaled.csv", mode='r', encoding='utf8') as test_file:
     reader = csv.reader(test_file)
     for row in reader:
@@ -33,3 +39,14 @@ with open("Data/test_dataset_scaled.csv", mode='r', encoding='utf8') as test_fil
 
         h_x = LinearRegressionImp.h_x(location, square_footage, room_count, year_built, floor) * 1000.0
         print("Estimated price: " + str(h_x) + ", Real price: " + str(price) + ", Miss " + str(h_x - price))
+
+        RMSE += pow(h_x - price, 2)
+        MAE += abs(h_x - price)
+        m += 1
+
+
+RMSE = math.sqrt(RMSE * 1.0 / m)
+MAE = MAE * 1.0 / m
+print("Root mean squared error: " + str(RMSE))
+print("Mean absolute error: " + str(MAE))
+

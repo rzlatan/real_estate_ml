@@ -18,6 +18,10 @@ class LinearRegressionImp:
     #
     goal_met_value = 0.01
 
+    # Regularization value
+    #
+    lambd = 0.01
+
     train_set_file_path = "Data/train_dataset_scaled.csv"
     headers = {
         "Location": 0,
@@ -217,6 +221,10 @@ class LinearRegressionImp:
         return abs(d_wo) < target and abs(d_location) < target and abs(d_room_count) < target and abs(d_floor) < target and abs(d_year_built) < target and abs(d_square_footage) < target
 
     @staticmethod
+    def l2_regularization(alpha, lambd, m, w):
+        return alpha * lambd  * w * 1.0 / m
+
+    @staticmethod
     def train():
         goal_met = False
         df = LinearRegressionImp.data_frame()
@@ -229,12 +237,18 @@ class LinearRegressionImp:
             delta_room_count = LinearRegressionImp.alpha * LinearRegressionImp.dJdw_param(df, "Room count")
             delta_year_built = LinearRegressionImp.alpha * LinearRegressionImp.dJdw_param(df, "Year built")
 
+            location_regularization = LinearRegressionImp.l2_regularization(alpha=LinearRegressionImp.alpha, lambd=LinearRegressionImp.lambd, m=float(len(df)), w=LinearRegressionImp.w_location)
+            square_footage_regularization = LinearRegressionImp.l2_regularization(alpha=LinearRegressionImp.alpha, lambd=LinearRegressionImp.lambd, m=float(len(df)), w=LinearRegressionImp.w_square_footage)
+            floor_regularization = LinearRegressionImp.l2_regularization(alpha=LinearRegressionImp.alpha, lambd=LinearRegressionImp.lambd, m=float(len(df)), w=LinearRegressionImp.w_floor)
+            room_count_regularization = LinearRegressionImp.l2_regularization(alpha=LinearRegressionImp.alpha, lambd=LinearRegressionImp.lambd, m=float(len(df)), w=LinearRegressionImp.w_room_count)
+            year_built_regularization = LinearRegressionImp.l2_regularization(alpha=LinearRegressionImp.alpha, lambd=LinearRegressionImp.lambd, m=float(len(df)), w=LinearRegressionImp.w_year_built)
+
             LinearRegressionImp.w_0 = LinearRegressionImp.w_0 - delta_w0
-            LinearRegressionImp.w_location = LinearRegressionImp.w_location - delta_location
-            LinearRegressionImp.w_square_footage = LinearRegressionImp.w_square_footage - delta_square_footage
-            LinearRegressionImp.w_floor = LinearRegressionImp.w_floor - delta_floor
-            LinearRegressionImp.w_room_count = LinearRegressionImp.w_room_count - delta_room_count
-            LinearRegressionImp.w_year_built = LinearRegressionImp.w_year_built - delta_year_built
+            LinearRegressionImp.w_location = LinearRegressionImp.w_location - delta_location - location_regularization
+            LinearRegressionImp.w_square_footage = LinearRegressionImp.w_square_footage - delta_square_footage - square_footage_regularization
+            LinearRegressionImp.w_floor = LinearRegressionImp.w_floor - delta_floor - floor_regularization
+            LinearRegressionImp.w_room_count = LinearRegressionImp.w_room_count - delta_room_count - room_count_regularization
+            LinearRegressionImp.w_year_built = LinearRegressionImp.w_year_built - delta_year_built - year_built_regularization
 
             if LinearRegressionImp.stop_goal_met(delta_w0, delta_location, delta_square_footage, delta_floor, delta_room_count, delta_year_built):
                 goal_met = True
